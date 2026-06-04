@@ -135,7 +135,7 @@ Purplle runs physical cosmetics stores across India. Each store has multiple CCT
 ## 4. Project Structure
 
 ```
-purpell/v2/
+purplle-tech-challenge-2026-round-2/
 ├── app/                                # FastAPI backend
 │   ├── main.py                         # App entrypoint, lifespan, CORS, health endpoint
 │   ├── Dockerfile                      # Production image for the API
