@@ -1,0 +1,67 @@
+{
+  "store_id": "ST1008",
+  "store_name": "Delhi SelectCitywalk",
+  "processed_at": "2026-06-04T21:28:07.099736",
+  "cameras": [
+    {
+      "cam_id": "CAMA",
+      "cam_role": "billing",
+      "frames": 3002,
+      "events": 3769,
+      "out_video": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1008\\CAMA_annotated.mp4",
+      "out_events": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1008\\CAMA_events.jsonl",
+      "wall_sec": 190.2,
+      "customers": 11,
+      "staff": 11,
+      "billed_customers": 0,
+      "re_entries": 2
+    },
+    {
+      "cam_id": "CAMB",
+      "cam_role": "entry",
+      "frames": 2502,
+      "events": 1598,
+      "out_video": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1008\\CAMB_annotated.mp4",
+      "out_events": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1008\\CAMB_events.jsonl",
+      "wall_sec": 150.7,
+      "customers": 58,
+      "staff": 1,
+      "billed_customers": 0,
+      "re_entries": 6
+    },
+    {
+      "cam_id": "CAMC",
+      "cam_role": "entry",
+      "frames": 1902,
+      "events": 2263,
+      "out_video": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1008\\CAMC_annotated.mp4",
+      "out_events": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1008\\CAMC_events.jsonl",
+      "wall_sec": 132.7,
+      "customers": 75,
+      "staff": 6,
+      "billed_customers": 0,
+      "re_entries": 5
+    },
+    {
+      "cam_id": "CAMD",
+      "cam_role": "zone",
+      "frames": 2898,
+      "events": 1625,
+      "out_video": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1008\\CAMD_annotated.mp4",
+      "out_events": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1008\\CAMD_events.jsonl",
+      "wall_sec": 170.5,
+      "customers": 23,
+      "staff": 4,
+      "billed_customers": 0,
+      "re_entries": 3
+    }
+  ],
+  "totals": {
+    "total_events": 9255,
+    "total_customers": 167,
+    "total_staff": 22,
+    "total_billed": 0,
+    "total_re_entries": 16,
+    "wall_seconds": 644.1
+  }
+}

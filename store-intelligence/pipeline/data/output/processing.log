@@ -1,0 +1,858 @@
+2026-06-04 19:50:11,728 [INFO] MobileNetV3 Re-ID loaded on cpu.
+2026-06-04 19:50:11,731 [INFO] =================================================================
+2026-06-04 19:50:11,731 [INFO]   Purplle Store Intelligence — Video Processor
+2026-06-04 19:50:11,732 [INFO]   Started at 2026-06-04 19:50:11
+2026-06-04 19:50:11,732 [INFO] =================================================================
+2026-06-04 19:50:11,735 [INFO] Loading YOLOv11n model …
+2026-06-04 19:50:11,811 [INFO] 
+2026-06-04 19:50:11,812 [INFO] ==  Mumbai Central (ST1076)  [4 cameras, 7 zones]  ==
+2026-06-04 19:50:11,812 [INFO] 
+2026-06-04 19:50:11,813 [INFO]   >> Camera CAM1 (zone): data/videos/Store 1/CAM 1 - zone.mp4
+2026-06-04 19:50:11,915 [INFO] [CAM1] 1920×1080 @ 30.0 fps | 4193 frames (2.3 min) | role=zone | skip=2
+2026-06-04 19:50:12,358 [INFO] [StaffFilter] Promoted T1 to STAFF (score=2.0)
+2026-06-04 19:50:16,407 [INFO] [StaffFilter] Promoted T4 to STAFF (score=2.0)
+2026-06-04 19:50:19,770 [INFO] [StaffFilter] Promoted T8 to STAFF (score=2.0)
+2026-06-04 19:50:21,046 [INFO] [StaffFilter] Promoted T10 to STAFF (score=2.0)
+2026-06-04 19:50:24,580 [INFO] [StaffFilter] Promoted T14 to STAFF (score=2.0)
+2026-06-04 19:50:30,265 [INFO] [StaffFilter] Promoted T19 to STAFF (score=2.0)
+2026-06-04 19:50:34,602 [INFO]   [CAM1]   7.2%  13.2 proc-fps  ETA 4.9 min  tracks=5  events=394
+2026-06-04 19:50:50,954 [INFO] [CAM1] Re-entry detected: T20 (gap=3.8s)
+2026-06-04 19:50:51,394 [INFO] [StaffFilter] Promoted T48 to STAFF (score=2.0)
+2026-06-04 19:50:52,538 [INFO] [CAM1] Re-entry detected: T7 (gap=9.8s)
+2026-06-04 19:50:53,703 [INFO] [StaffFilter] Promoted T54 to STAFF (score=2.0)
+2026-06-04 19:50:55,824 [INFO]   [CAM1]  14.3%  13.7 proc-fps  ETA 4.4 min  tracks=7  events=749
+2026-06-04 19:50:56,358 [INFO] [StaffFilter] Promoted T58 to STAFF (score=2.0)
+2026-06-04 19:50:57,929 [INFO] [StaffFilter] Promoted T61 to STAFF (score=2.0)
+2026-06-04 19:51:00,167 [INFO] [StaffFilter] Promoted T62 to STAFF (score=2.0)
+2026-06-04 19:51:00,750 [INFO] [CAM1] Re-entry detected: T7 (gap=0.5s)
+2026-06-04 19:51:04,036 [INFO] [StaffFilter] Promoted T66 to STAFF (score=2.0)
+2026-06-04 19:51:05,726 [INFO] [StaffFilter] Promoted T69 to STAFF (score=2.0)
+2026-06-04 19:51:08,285 [INFO] [StaffFilter] Promoted T70 to STAFF (score=2.0)
+2026-06-04 19:51:11,546 [INFO] [StaffFilter] Promoted T77 to STAFF (score=2.0)
+2026-06-04 19:51:16,455 [INFO] [StaffFilter] Promoted T96 to STAFF (score=2.0)
+2026-06-04 19:51:17,010 [INFO]   [CAM1]  21.5%  13.8 proc-fps  ETA 4.0 min  tracks=5  events=1256
+2026-06-04 19:51:38,146 [INFO]   [CAM1]  28.6%  13.9 proc-fps  ETA 3.6 min  tracks=4  events=1782
+2026-06-04 19:51:42,532 [INFO] [StaffFilter] Promoted T115 to STAFF (score=2.0)
+2026-06-04 19:51:49,897 [INFO] [StaffFilter] Promoted T122 to STAFF (score=2.0)
+2026-06-04 19:51:57,100 [INFO] [StaffFilter] Promoted T126 to STAFF (score=2.0)
+2026-06-04 19:51:57,243 [INFO] [StaffFilter] Promoted T127 to STAFF (score=2.0)
+2026-06-04 19:51:58,671 [INFO] [CAM1] Re-entry detected: T49 (gap=25.7s)
+2026-06-04 19:51:58,973 [INFO] [StaffFilter] Promoted T131 to STAFF (score=2.0)
+2026-06-04 19:51:59,116 [INFO] [StaffFilter] Promoted T132 to STAFF (score=2.0)
+2026-06-04 19:51:59,268 [INFO]   [CAM1]  35.8%  14.0 proc-fps  ETA 3.2 min  tracks=8  events=2326
+2026-06-04 19:52:02,675 [INFO] [StaffFilter] Promoted T139 to STAFF (score=2.0)
+2026-06-04 19:52:04,242 [INFO] [StaffFilter] Promoted T146 to STAFF (score=2.0)
+2026-06-04 19:52:04,526 [INFO] [StaffFilter] Promoted T148 to STAFF (score=2.0)
+2026-06-04 19:52:07,247 [INFO] [StaffFilter] Promoted T149 to STAFF (score=2.0)
+2026-06-04 19:52:13,994 [INFO] [StaffFilter] Promoted T156 to STAFF (score=2.0)
+2026-06-04 19:52:20,654 [INFO]   [CAM1]  42.9%  14.0 proc-fps  ETA 2.9 min  tracks=6  events=3035
+2026-06-04 19:52:30,558 [INFO] [StaffFilter] Promoted T177 to STAFF (score=2.0)
+2026-06-04 19:52:41,611 [INFO]   [CAM1]  50.1%  14.0 proc-fps  ETA 2.5 min  tracks=3  events=3493
+2026-06-04 19:52:49,050 [INFO] [StaffFilter] Promoted T198 to STAFF (score=2.0)
+2026-06-04 19:52:55,665 [INFO] [StaffFilter] Promoted T200 to STAFF (score=2.0)
+2026-06-04 19:53:02,288 [INFO]   [CAM1]  57.2%  14.1 proc-fps  ETA 2.1 min  tracks=4  events=4023
+2026-06-04 19:53:02,706 [INFO] [CAM1] Re-entry detected: T7 (gap=54.5s)
+2026-06-04 19:53:07,719 [INFO] [StaffFilter] Promoted T209 to STAFF (score=2.0)
+2026-06-04 19:53:16,662 [INFO] [StaffFilter] Promoted T211 to STAFF (score=2.0)
+2026-06-04 19:53:19,847 [INFO] [StaffFilter] Promoted T217 to STAFF (score=2.0)
+2026-06-04 19:53:23,186 [INFO]   [CAM1]  64.4%  14.1 proc-fps  ETA 1.8 min  tracks=6  events=4585
+2026-06-04 19:53:33,597 [INFO] [StaffFilter] Promoted T225 to STAFF (score=2.0)
+2026-06-04 19:53:40,616 [INFO] [StaffFilter] Promoted T228 to STAFF (score=2.0)
+2026-06-04 19:53:43,902 [INFO]   [CAM1]  71.5%  14.2 proc-fps  ETA 1.4 min  tracks=5  events=5174
+2026-06-04 19:53:44,860 [INFO] [StaffFilter] Promoted T240 to STAFF (score=2.0)
+2026-06-04 19:53:45,130 [INFO] [StaffFilter] Promoted T244 to STAFF (score=2.0)
+2026-06-04 19:53:50,609 [INFO] [StaffFilter] Promoted T253 to STAFF (score=2.0)
+2026-06-04 19:53:53,455 [INFO] [StaffFilter] Promoted T261 to STAFF (score=2.0)
+2026-06-04 19:53:58,202 [INFO] [StaffFilter] Promoted T268 to STAFF (score=2.0)
+2026-06-04 19:54:00,413 [INFO] [CAM1] Re-entry detected: T2 (gap=44.2s)
+2026-06-04 19:54:01,545 [INFO] [StaffFilter] Promoted T275 to STAFF (score=2.0)
+2026-06-04 19:54:03,776 [INFO] [StaffFilter] Promoted T277 to STAFF (score=2.0)
+2026-06-04 19:54:04,757 [INFO]   [CAM1]  78.7%  14.2 proc-fps  ETA 1.1 min  tracks=11  events=5883
+2026-06-04 19:54:07,028 [INFO] [StaffFilter] Promoted T286 to STAFF (score=2.0)
+2026-06-04 19:54:10,587 [INFO] [StaffFilter] Promoted T302 to STAFF (score=2.0)
+2026-06-04 19:54:11,339 [INFO] [CAM1] Re-entry detected: T7 (gap=29.8s)
+2026-06-04 19:54:11,619 [INFO] [CAM1] Re-entry detected: T2 (gap=1.3s)
+2026-06-04 19:54:12,105 [INFO] [StaffFilter] Promoted T312 to STAFF (score=2.0)
+2026-06-04 19:54:12,530 [INFO] [StaffFilter] Promoted T309 to STAFF (score=2.0)
+2026-06-04 19:54:12,667 [INFO] [StaffFilter] Promoted T313 to STAFF (score=2.0)
+2026-06-04 19:54:12,810 [INFO] [StaffFilter] Promoted T315 to STAFF (score=2.0)
+2026-06-04 19:54:14,079 [INFO] [StaffFilter] Promoted T318 to STAFF (score=2.0)
+2026-06-04 19:54:27,406 [INFO]   [CAM1]  85.9%  14.1 proc-fps  ETA 0.7 min  tracks=6  events=6534
+2026-06-04 19:54:28,572 [INFO] [StaffFilter] Promoted T335 to STAFF (score=2.0)
+2026-06-04 19:54:40,852 [INFO] [StaffFilter] Promoted T345 to STAFF (score=2.0)
+2026-06-04 19:54:45,015 [INFO] [StaffFilter] Promoted T354 to STAFF (score=2.0)
+2026-06-04 19:54:47,072 [INFO] [StaffFilter] Promoted T355 to STAFF (score=2.0)
+2026-06-04 19:54:48,519 [INFO] [StaffFilter] Promoted T358 to STAFF (score=2.0)
+2026-06-04 19:54:48,673 [INFO] [StaffFilter] Promoted T359 to STAFF (score=2.0)
+2026-06-04 19:54:48,998 [INFO]   [CAM1]  93.0%  14.1 proc-fps  ETA 0.3 min  tracks=7  events=7087
+2026-06-04 19:55:02,314 [INFO] [StaffFilter] Promoted T371 to STAFF (score=2.0)
+2026-06-04 19:55:06,942 [INFO] [StaffFilter] Promoted T373 to STAFF (score=2.0)
+2026-06-04 19:55:11,873 [INFO] [CAM1] Transcoding to H.264…
+2026-06-04 19:56:02,166 [INFO] [CAM1] Transcode complete.
+2026-06-04 19:56:02,332 [INFO] [CAM1] ✓ Finished  4193 frames | 7714 events | 5.8 min wall-time | billed_customer=0 re_entry=8
+2026-06-04 19:56:02,332 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM1_annotated.mp4
+2026-06-04 19:56:02,333 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM1_events.jsonl
+2026-06-04 19:56:02,336 [INFO] 
+2026-06-04 19:56:02,336 [INFO]   >> Camera CAM2 (zone): data/videos/Store 1/CAM 2 - zone.mp4
+2026-06-04 19:56:02,519 [INFO] [CAM2] 1920×1080 @ 30.0 fps | 3774 frames (2.1 min) | role=zone | skip=2
+2026-06-04 19:56:02,888 [INFO] [StaffFilter] Promoted T376 to STAFF (score=2.0)
+2026-06-04 19:56:02,889 [INFO] [StaffFilter] Promoted T377 to STAFF (score=2.0)
+2026-06-04 19:56:02,889 [INFO] [StaffFilter] Promoted T378 to STAFF (score=2.0)
+2026-06-04 19:56:04,608 [INFO] [StaffFilter] Promoted T383 to STAFF (score=2.0)
+2026-06-04 19:56:10,356 [INFO] [StaffFilter] Promoted T395 to STAFF (score=2.0)
+2026-06-04 19:56:12,296 [INFO] [StaffFilter] Promoted T399 to STAFF (score=2.0)
+2026-06-04 19:56:12,446 [INFO] [StaffFilter] Promoted T400 to STAFF (score=2.0)
+2026-06-04 19:56:13,185 [INFO] [StaffFilter] Promoted T406 to STAFF (score=2.0)
+2026-06-04 19:56:13,982 [INFO] [StaffFilter] Promoted T409 to STAFF (score=2.0)
+2026-06-04 19:56:17,828 [INFO] [StaffFilter] Promoted T418 to STAFF (score=2.0)
+2026-06-04 19:56:25,580 [INFO]   [CAM2]   7.9%  13.0 proc-fps  ETA 4.5 min  tracks=5  events=629
+2026-06-04 19:56:31,979 [INFO] [StaffFilter] Promoted T463 to STAFF (score=2.0)
+2026-06-04 19:56:33,649 [INFO] [StaffFilter] Promoted T468 to STAFF (score=2.0)
+2026-06-04 19:56:34,259 [INFO] [StaffFilter] Promoted T473 to STAFF (score=2.0)
+2026-06-04 19:56:35,387 [INFO] [StaffFilter] Promoted T480 to STAFF (score=2.0)
+2026-06-04 19:56:36,918 [INFO] [StaffFilter] Promoted T490 to STAFF (score=2.0)
+2026-06-04 19:56:37,500 [INFO] [CAM2] Re-entry detected: T387 (gap=3.1s)
+2026-06-04 19:56:37,954 [INFO] [StaffFilter] Promoted T496 to STAFF (score=2.0)
+2026-06-04 19:56:38,709 [INFO] [StaffFilter] Promoted T497 to STAFF (score=2.0)
+2026-06-04 19:56:46,666 [INFO] [StaffFilter] Promoted T507 to STAFF (score=2.0)
+2026-06-04 19:56:47,399 [INFO] [StaffFilter] Promoted T518 to STAFF (score=2.0)
+2026-06-04 19:56:48,095 [INFO]   [CAM2]  15.9%  13.2 proc-fps  ETA 4.0 min  tracks=7  events=1326
+2026-06-04 19:57:02,834 [INFO] [StaffFilter] Promoted T562 to STAFF (score=2.0)
+2026-06-04 19:57:06,425 [INFO] [StaffFilter] Promoted T573 to STAFF (score=2.0)
+2026-06-04 19:57:10,268 [INFO]   [CAM2]  23.8%  13.3 proc-fps  ETA 3.6 min  tracks=7  events=2094
+2026-06-04 19:57:15,344 [INFO] [StaffFilter] Promoted T596 to STAFF (score=2.0)
+2026-06-04 19:57:15,813 [INFO] [StaffFilter] Promoted T602 to STAFF (score=2.0)
+2026-06-04 19:57:23,166 [INFO] [StaffFilter] Promoted T631 to STAFF (score=2.0)
+2026-06-04 19:57:24,024 [INFO] [StaffFilter] Promoted T640 to STAFF (score=2.0)
+2026-06-04 19:57:25,581 [INFO] [StaffFilter] Promoted T658 to STAFF (score=2.0)
+2026-06-04 19:57:26,022 [INFO] [StaffFilter] Promoted T661 to STAFF (score=2.0)
+2026-06-04 19:57:26,302 [INFO] [StaffFilter] Promoted T664 to STAFF (score=2.0)
+2026-06-04 19:57:31,714 [INFO]   [CAM2]  31.8%  13.5 proc-fps  ETA 3.2 min  tracks=8  events=2821
+2026-06-04 19:57:36,325 [INFO] [StaffFilter] Promoted T672 to STAFF (score=2.0)
+2026-06-04 19:57:42,936 [INFO] [StaffFilter] Promoted T675 to STAFF (score=2.0)
+2026-06-04 19:57:42,936 [INFO] [StaffFilter] Promoted T676 to STAFF (score=2.0)
+2026-06-04 19:57:44,503 [INFO] [StaffFilter] Promoted T677 to STAFF (score=2.0)
+2026-06-04 19:57:45,351 [INFO] [StaffFilter] Promoted T678 to STAFF (score=2.0)
+2026-06-04 19:57:46,646 [INFO] [CAM2] Re-entry detected: T386 (gap=40.4s)
+2026-06-04 19:57:46,784 [INFO] [StaffFilter] Promoted T682 to STAFF (score=2.0)
+2026-06-04 19:57:46,930 [INFO] [StaffFilter] Promoted T685 to STAFF (score=2.0)
+2026-06-04 19:57:51,936 [INFO] [StaffFilter] Promoted T688 to STAFF (score=2.0)
+2026-06-04 19:57:53,353 [INFO]   [CAM2]  39.7%  13.5 proc-fps  ETA 2.8 min  tracks=8  events=3612
+2026-06-04 19:57:56,232 [INFO] [StaffFilter] Promoted T698 to STAFF (score=2.0)
+2026-06-04 19:57:59,699 [INFO] [StaffFilter] Promoted T719 to STAFF (score=2.0)
+2026-06-04 19:57:59,977 [INFO] [StaffFilter] Promoted T721 to STAFF (score=2.0)
+2026-06-04 19:58:09,641 [INFO] [StaffFilter] Promoted T743 to STAFF (score=2.0)
+2026-06-04 19:58:10,360 [INFO] [StaffFilter] Promoted T745 to STAFF (score=2.0)
+2026-06-04 19:58:10,798 [INFO] [StaffFilter] Promoted T746 to STAFF (score=2.0)
+2026-06-04 19:58:11,625 [INFO] [StaffFilter] Promoted T754 to STAFF (score=2.0)
+2026-06-04 19:58:14,909 [INFO]   [CAM2]  47.7%  13.6 proc-fps  ETA 2.4 min  tracks=8  events=4397
+2026-06-04 19:58:17,891 [INFO] [StaffFilter] Promoted T757 to STAFF (score=2.0)
+2026-06-04 19:58:28,042 [INFO] [StaffFilter] Promoted T775 to STAFF (score=2.0)
+2026-06-04 19:58:37,236 [INFO]   [CAM2]  55.6%  13.6 proc-fps  ETA 2.1 min  tracks=6  events=5206
+2026-06-04 19:58:44,150 [INFO] [StaffFilter] Promoted T799 to STAFF (score=2.0)
+2026-06-04 19:58:46,260 [INFO] [StaffFilter] Promoted T805 to STAFF (score=2.0)
+2026-06-04 19:58:46,261 [INFO] [StaffFilter] Promoted T806 to STAFF (score=2.0)
+2026-06-04 19:58:48,926 [INFO] [StaffFilter] Promoted T809 to STAFF (score=2.0)
+2026-06-04 19:58:49,223 [INFO] [StaffFilter] Promoted T811 to STAFF (score=2.0)
+2026-06-04 19:58:50,233 [INFO] [StaffFilter] Promoted T814 to STAFF (score=2.0)
+2026-06-04 19:58:53,078 [INFO] [StaffFilter] Promoted T821 to STAFF (score=2.0)
+2026-06-04 19:58:53,506 [INFO] [StaffFilter] Promoted T823 to STAFF (score=2.0)
+2026-06-04 19:58:56,218 [INFO] [StaffFilter] Promoted T834 to STAFF (score=2.0)
+2026-06-04 19:58:59,233 [INFO]   [CAM2]  63.6%  13.6 proc-fps  ETA 1.7 min  tracks=9  events=6023
+2026-06-04 19:59:01,632 [INFO] [StaffFilter] Promoted T858 to STAFF (score=2.0)
+2026-06-04 19:59:03,647 [INFO] [StaffFilter] Promoted T860 to STAFF (score=2.0)
+2026-06-04 19:59:03,648 [INFO] [StaffFilter] Promoted T861 to STAFF (score=2.0)
+2026-06-04 19:59:07,900 [INFO] [StaffFilter] Promoted T867 to STAFF (score=2.0)
+2026-06-04 19:59:10,180 [INFO] [StaffFilter] Promoted T875 to STAFF (score=2.0)
+2026-06-04 19:59:10,389 [INFO] [StaffFilter] Promoted T876 to STAFF (score=2.0)
+2026-06-04 19:59:10,971 [INFO] [StaffFilter] Promoted T878 to STAFF (score=2.0)
+2026-06-04 19:59:20,642 [INFO] [StaffFilter] Promoted T923 to STAFF (score=2.0)
+2026-06-04 19:59:20,660 [INFO]   [CAM2]  71.5%  13.6 proc-fps  ETA 1.3 min  tracks=8  events=6804
+2026-06-04 19:59:27,107 [INFO] [StaffFilter] Promoted T925 to STAFF (score=2.0)
+2026-06-04 19:59:27,823 [INFO] [StaffFilter] Promoted T927 to STAFF (score=2.0)
+2026-06-04 19:59:29,682 [INFO] [StaffFilter] Promoted T929 to STAFF (score=2.0)
+2026-06-04 19:59:35,405 [INFO] [StaffFilter] Promoted T940 to STAFF (score=2.0)
+2026-06-04 19:59:38,570 [INFO] [StaffFilter] Promoted T942 to STAFF (score=2.0)
+2026-06-04 19:59:42,263 [INFO]   [CAM2]  79.5%  13.7 proc-fps  ETA 0.9 min  tracks=7  events=7511
+2026-06-04 20:00:03,166 [INFO] [StaffFilter] Promoted T974 to STAFF (score=2.0)
+2026-06-04 20:00:04,115 [INFO]   [CAM2]  87.4%  13.7 proc-fps  ETA 0.6 min  tracks=8  events=8206
+2026-06-04 20:00:12,211 [INFO] [StaffFilter] Promoted T977 to STAFF (score=2.0)
+2026-06-04 20:00:14,455 [INFO] [StaffFilter] Promoted T983 to STAFF (score=2.0)
+2026-06-04 20:00:14,752 [INFO] [StaffFilter] Promoted T984 to STAFF (score=2.0)
+2026-06-04 20:00:27,110 [INFO] [StaffFilter] Promoted T1009 to STAFF (score=2.0)
+2026-06-04 20:00:27,128 [INFO]   [CAM2]  95.4%  13.6 proc-fps  ETA 0.2 min  tracks=5  events=8812
+2026-06-04 20:00:33,405 [INFO] [StaffFilter] Promoted T1010 to STAFF (score=2.0)
+2026-06-04 20:00:40,479 [INFO] [CAM2] Transcoding to H.264…
+2026-06-04 20:01:29,475 [INFO] [CAM2] Transcode complete.
+2026-06-04 20:01:29,566 [INFO] [CAM2] ✓ Finished  3774 frames | 9183 events | 5.5 min wall-time | billed_customer=0 re_entry=2
+2026-06-04 20:01:29,567 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM2_annotated.mp4
+2026-06-04 20:01:29,567 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM2_events.jsonl
+2026-06-04 20:01:29,569 [INFO] 
+2026-06-04 20:01:29,570 [INFO]   >> Camera CAM3 (entry): data/videos/Store 1/CAM 3 - entry.mp4
+2026-06-04 20:01:29,721 [INFO] [CAM3] 1920×1080 @ 30.0 fps | 4436 frames (2.5 min) | role=entry | skip=2
+2026-06-04 20:01:30,433 [INFO] [StaffFilter] Promoted T1017 to STAFF (score=2.0)
+2026-06-04 20:01:30,713 [INFO] [StaffFilter] Promoted T1018 to STAFF (score=2.0)
+2026-06-04 20:01:33,292 [INFO] [StaffFilter] Promoted T1024 to STAFF (score=2.0)
+2026-06-04 20:01:33,989 [INFO] [StaffFilter] Promoted T1028 to STAFF (score=2.0)
+2026-06-04 20:01:49,444 [INFO]   [CAM3]   6.8%  15.2 proc-fps  ETA 4.5 min  tracks=1  events=180
+2026-06-04 20:02:07,530 [INFO]   [CAM3]  13.5%  15.9 proc-fps  ETA 4.0 min  tracks=1  events=203
+2026-06-04 20:02:12,965 [INFO] [StaffFilter] Promoted T1046 to STAFF (score=2.0)
+2026-06-04 20:02:20,917 [INFO] [CAM3] Re-entry detected: T1044 (gap=2.8s)
+2026-06-04 20:02:22,311 [INFO] [StaffFilter] Promoted T1051 to STAFF (score=2.0)
+2026-06-04 20:02:25,885 [INFO]   [CAM3]  20.3%  16.0 proc-fps  ETA 3.7 min  tracks=5  events=308
+2026-06-04 20:02:26,171 [INFO] [StaffFilter] Promoted T1064 to STAFF (score=2.0)
+2026-06-04 20:02:29,129 [INFO] [StaffFilter] Promoted T1066 to STAFF (score=2.0)
+2026-06-04 20:02:31,417 [INFO] [StaffFilter] Promoted T1068 to STAFF (score=2.0)
+2026-06-04 20:02:32,363 [INFO] [StaffFilter] Promoted T1069 to STAFF (score=2.0)
+2026-06-04 20:02:43,337 [INFO] [StaffFilter] Promoted T1076 to STAFF (score=2.0)
+2026-06-04 20:02:46,935 [INFO]   [CAM3]  27.1%  15.5 proc-fps  ETA 3.5 min  tracks=3  events=691
+2026-06-04 20:03:03,060 [INFO] [StaffFilter] Promoted T1088 to STAFF (score=2.0)
+2026-06-04 20:03:07,406 [INFO]   [CAM3]  33.8%  15.4 proc-fps  ETA 3.2 min  tracks=5  events=937
+2026-06-04 20:03:20,808 [INFO] [StaffFilter] Promoted T1117 to STAFF (score=2.0)
+2026-06-04 20:03:22,756 [INFO] [StaffFilter] Promoted T1120 to STAFF (score=2.0)
+2026-06-04 20:03:26,149 [INFO] [CAM3] Re-entry detected: T1079 (gap=8.5s)
+2026-06-04 20:03:26,150 [INFO] [StaffFilter] Promoted T1124 to STAFF (score=2.0)
+2026-06-04 20:03:29,131 [INFO]   [CAM3]  40.6%  15.1 proc-fps  ETA 2.9 min  tracks=5  events=1294
+2026-06-04 20:03:33,099 [INFO] [StaffFilter] Promoted T1129 to STAFF (score=2.0)
+2026-06-04 20:03:33,579 [INFO] [StaffFilter] Promoted T1132 to STAFF (score=2.0)
+2026-06-04 20:03:37,276 [INFO] [StaffFilter] Promoted T1140 to STAFF (score=2.0)
+2026-06-04 20:03:38,980 [INFO] [StaffFilter] Promoted T1143 to STAFF (score=2.0)
+2026-06-04 20:03:43,425 [INFO] [StaffFilter] Promoted T1156 to STAFF (score=2.0)
+2026-06-04 20:03:49,811 [INFO]   [CAM3]  47.3%  15.0 proc-fps  ETA 2.6 min  tracks=7  events=1570
+2026-06-04 20:03:57,530 [INFO] [StaffFilter] Promoted T1173 to STAFF (score=2.0)
+2026-06-04 20:04:09,902 [INFO]   [CAM3]  54.1%  15.0 proc-fps  ETA 2.3 min  tracks=1  events=1719
+2026-06-04 20:04:18,932 [INFO] [StaffFilter] Promoted T1187 to STAFF (score=2.0)
+2026-06-04 20:04:21,167 [INFO] [StaffFilter] Promoted T1192 to STAFF (score=2.0)
+2026-06-04 20:04:30,895 [INFO]   [CAM3]  60.9%  14.9 proc-fps  ETA 1.9 min  tracks=3  events=1790
+2026-06-04 20:04:35,549 [INFO] [StaffFilter] Promoted T1211 to STAFF (score=2.0)
+2026-06-04 20:04:36,479 [INFO] [StaffFilter] Promoted T1215 to STAFF (score=2.0)
+2026-06-04 20:04:37,976 [INFO] [StaffFilter] Promoted T1226 to STAFF (score=2.0)
+2026-06-04 20:04:39,231 [INFO] [StaffFilter] Promoted T1230 to STAFF (score=2.0)
+2026-06-04 20:04:40,515 [INFO] [StaffFilter] Promoted T1237 to STAFF (score=2.0)
+2026-06-04 20:04:41,068 [INFO] [StaffFilter] Promoted T1241 to STAFF (score=2.0)
+2026-06-04 20:04:49,846 [INFO] [StaffFilter] Promoted T1259 to STAFF (score=2.0)
+2026-06-04 20:04:50,287 [INFO]   [CAM3]  67.6%  15.0 proc-fps  ETA 1.6 min  tracks=4  events=1951
+2026-06-04 20:05:00,546 [INFO] [StaffFilter] Promoted T1272 to STAFF (score=2.0)
+2026-06-04 20:05:02,195 [INFO] [StaffFilter] Promoted T1279 to STAFF (score=2.0)
+2026-06-04 20:05:03,059 [INFO] [StaffFilter] Promoted T1281 to STAFF (score=2.0)
+2026-06-04 20:05:09,537 [INFO] [StaffFilter] Promoted T1287 to STAFF (score=2.0)
+2026-06-04 20:05:09,680 [INFO]   [CAM3]  74.4%  15.0 proc-fps  ETA 1.3 min  tracks=2  events=2138
+2026-06-04 20:05:28,131 [INFO]   [CAM3]  81.2%  15.1 proc-fps  ETA 0.9 min  tracks=2  events=2194
+2026-06-04 20:05:32,994 [INFO] [StaffFilter] Promoted T1292 to STAFF (score=2.0)
+2026-06-04 20:05:46,092 [INFO]   [CAM3]  87.9%  15.2 proc-fps  ETA 0.6 min  tracks=1  events=2215
+2026-06-04 20:05:47,954 [INFO] [StaffFilter] Promoted T1293 to STAFF (score=2.0)
+2026-06-04 20:05:51,254 [INFO] [StaffFilter] Promoted T1306 to STAFF (score=2.0)
+2026-06-04 20:05:56,431 [INFO] [CAM3] Re-entry detected: T1154 (gap=63.3s)
+2026-06-04 20:05:59,451 [INFO] [CAM3] Re-entry detected: T1079 (gap=71.7s)
+2026-06-04 20:06:01,264 [INFO] [StaffFilter] Promoted T1327 to STAFF (score=2.0)
+2026-06-04 20:06:02,901 [INFO] [StaffFilter] Promoted T1331 to STAFF (score=2.0)
+2026-06-04 20:06:04,336 [INFO] [StaffFilter] Promoted T1337 to STAFF (score=2.0)
+2026-06-04 20:06:05,734 [INFO]   [CAM3]  94.7%  15.2 proc-fps  ETA 0.3 min  tracks=8  events=2430
+2026-06-04 20:06:08,614 [INFO] [StaffFilter] Promoted T1348 to STAFF (score=2.0)
+2026-06-04 20:06:11,331 [INFO] [StaffFilter] Promoted T1350 to STAFF (score=2.0)
+2026-06-04 20:06:17,821 [INFO] [StaffFilter] Promoted T1369 to STAFF (score=2.0)
+2026-06-04 20:06:19,150 [INFO] [StaffFilter] Promoted T1373 to STAFF (score=2.0)
+2026-06-04 20:06:20,299 [INFO] [StaffFilter] Promoted T1382 to STAFF (score=2.0)
+2026-06-04 20:06:21,598 [INFO] [CAM3] Transcoding to H.264…
+2026-06-04 20:07:03,743 [INFO] [CAM3] Transcode complete.
+2026-06-04 20:07:03,788 [INFO] [CAM3] ✓ Finished  4436 frames | 2669 events | 5.6 min wall-time | billed_customer=0 re_entry=4
+2026-06-04 20:07:03,789 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM3_annotated.mp4
+2026-06-04 20:07:03,790 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM3_events.jsonl
+2026-06-04 20:07:03,793 [INFO] 
+2026-06-04 20:07:03,793 [INFO]   >> Camera CAM5 (billing): data/videos/Store 1/CAM 5 - billing.mp4
+2026-06-04 20:07:03,858 [INFO] [CAM5] 1920×1080 @ 25.0 fps | 3465 frames (2.3 min) | role=billing | skip=2
+2026-06-04 20:07:04,283 [INFO] [StaffFilter] Promoted T1391 to STAFF (score=2.0)
+2026-06-04 20:07:06,567 [INFO] [StaffFilter] Promoted T1392 to STAFF (score=2.0)
+2026-06-04 20:07:07,968 [INFO] [StaffFilter] Promoted T1393 to STAFF (score=2.0)
+2026-06-04 20:07:12,276 [INFO] [StaffFilter] Promoted T1395 to STAFF (score=2.0)
+2026-06-04 20:07:14,052 [INFO] [StaffFilter] Promoted T1399 to STAFF (score=2.0)
+2026-06-04 20:07:16,294 [INFO] [StaffFilter] Promoted T1400 to STAFF (score=2.0)
+2026-06-04 20:07:16,295 [INFO] [StaffFilter] Promoted T1401 to STAFF (score=2.0)
+2026-06-04 20:07:22,970 [INFO]   [CAM5]   8.7%  15.7 proc-fps  ETA 3.4 min  tracks=2  events=170
+2026-06-04 20:07:26,636 [INFO] [StaffFilter] Promoted T1403 to STAFF (score=2.0)
+2026-06-04 20:07:27,407 [INFO] [StaffFilter] Promoted T1406 to STAFF (score=2.0)
+2026-06-04 20:07:34,511 [INFO] [StaffFilter] Promoted T1410 to STAFF (score=2.0)
+2026-06-04 20:07:36,738 [INFO] [StaffFilter] Promoted T1411 to STAFF (score=2.0)
+2026-06-04 20:07:43,329 [INFO]   [CAM5]  17.3%  15.2 proc-fps  ETA 3.1 min  tracks=2  events=442
+2026-06-04 20:08:04,291 [INFO]   [CAM5]  26.0%  14.9 proc-fps  ETA 2.9 min  tracks=2  events=742
+2026-06-04 20:08:04,969 [INFO] [StaffFilter] Promoted T1416 to STAFF (score=2.0)
+2026-06-04 20:08:05,251 [INFO] [StaffFilter] Promoted T1417 to STAFF (score=2.0)
+2026-06-04 20:08:14,643 [INFO] [StaffFilter] Promoted T1419 to STAFF (score=2.0)
+2026-06-04 20:08:26,178 [INFO]   [CAM5]  34.6%  14.6 proc-fps  ETA 2.6 min  tracks=2  events=1040
+2026-06-04 20:08:31,971 [INFO] [StaffFilter] Promoted T1429 to STAFF (score=2.0)
+2026-06-04 20:08:43,365 [INFO] [StaffFilter] Promoted T1430 to STAFF (score=2.0)
+2026-06-04 20:08:45,722 [INFO] [StaffFilter] Promoted T1431 to STAFF (score=2.0)
+2026-06-04 20:08:48,922 [INFO]   [CAM5]  43.3%  14.3 proc-fps  ETA 2.3 min  tracks=4  events=1319
+2026-06-04 20:08:55,933 [INFO] [StaffFilter] Promoted T1436 to STAFF (score=2.0)
+2026-06-04 20:09:04,911 [INFO] [StaffFilter] Promoted T1438 to STAFF (score=2.0)
+2026-06-04 20:09:09,509 [INFO]   [CAM5]  51.9%  14.3 proc-fps  ETA 1.9 min  tracks=2  events=1476
+2026-06-04 20:09:29,142 [INFO] [StaffFilter] Promoted T1455 to STAFF (score=2.0)
+2026-06-04 20:09:29,278 [INFO] [StaffFilter] Promoted T1456 to STAFF (score=2.0)
+2026-06-04 20:09:29,294 [INFO]   [CAM5]  60.6%  14.4 proc-fps  ETA 1.6 min  tracks=4  events=1723
+2026-06-04 20:09:48,960 [INFO]   [CAM5]  69.3%  14.5 proc-fps  ETA 1.2 min  tracks=2  events=1817
+2026-06-04 20:09:59,396 [INFO] [StaffFilter] Promoted T1461 to STAFF (score=2.0)
+2026-06-04 20:09:59,943 [INFO] [StaffFilter] Promoted T1464 to STAFF (score=2.0)
+2026-06-04 20:10:02,897 [INFO] [StaffFilter] Promoted T1469 to STAFF (score=2.0)
+2026-06-04 20:10:09,370 [INFO]   [CAM5]  77.9%  14.6 proc-fps  ETA 0.9 min  tracks=2  events=1911
+2026-06-04 20:10:29,932 [INFO]   [CAM5]  86.6%  14.6 proc-fps  ETA 0.5 min  tracks=1  events=1917
+2026-06-04 20:10:37,068 [INFO] [StaffFilter] Promoted T1470 to STAFF (score=2.0)
+2026-06-04 20:10:49,833 [INFO]   [CAM5]  95.2%  14.6 proc-fps  ETA 0.2 min  tracks=1  events=2015
+2026-06-04 20:11:00,534 [INFO] [CAM5] Transcoding to H.264…
+2026-06-04 20:11:41,147 [INFO] [CAM5] Transcode complete.
+2026-06-04 20:11:41,183 [INFO] [CAM5] ✓ Finished  3465 frames | 2098 events | 4.6 min wall-time | billed_customer=0 re_entry=0
+2026-06-04 20:11:41,184 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM5_annotated.mp4
+2026-06-04 20:11:41,184 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM5_events.jsonl
+2026-06-04 20:11:41,186 [INFO] 
+2026-06-04 20:11:41,187 [INFO]   ✓ Store summary → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\summary.json
+2026-06-04 20:11:41,187 [INFO]     events=21664  customers=58  staff=200  billed=0  re_entries=14
+2026-06-04 20:11:41,452 [INFO]   ✓ Consolidated events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\ST1076_events.jsonl (21664 total events from 4 cameras)
+2026-06-04 20:11:41,453 [INFO] 
+2026-06-04 20:11:41,453 [INFO] ==  Delhi SelectCitywalk (ST1008)  [4 cameras, 7 zones]  ==
+2026-06-04 20:11:41,454 [INFO] 
+2026-06-04 20:11:41,454 [INFO]   >> Camera CAMA (billing): data/videos/Store 2/billing_area.mp4
+2026-06-04 20:11:41,597 [INFO] [CAMA] 960×1080 @ 25.0 fps | 3126 frames (2.1 min) | role=billing | skip=2
+2026-06-04 20:11:45,365 [INFO] [StaffFilter] Promoted T1473 to STAFF (score=2.0)
+2026-06-04 20:11:46,153 [INFO] [StaffFilter] Promoted T1474 to STAFF (score=2.0)
+2026-06-04 20:11:57,370 [INFO]   [CAMA]   9.6%  19.0 proc-fps  ETA 2.5 min  tracks=3  events=117
+2026-06-04 20:12:14,195 [INFO]   [CAMA]  19.2%  18.4 proc-fps  ETA 2.3 min  tracks=2  events=390
+2026-06-04 20:12:21,116 [INFO] [StaffFilter] Promoted T1503 to STAFF (score=2.0)
+2026-06-04 20:12:22,384 [INFO] [StaffFilter] Promoted T1505 to STAFF (score=2.0)
+2026-06-04 20:12:23,053 [INFO] [CAMA] Re-entry detected: T1489 (gap=4.2s)
+2026-06-04 20:12:30,920 [INFO]   [CAMA]  28.8%  18.2 proc-fps  ETA 2.0 min  tracks=3  events=661
+2026-06-04 20:12:47,943 [INFO]   [CAMA]  38.4%  18.1 proc-fps  ETA 1.8 min  tracks=3  events=1037
+2026-06-04 20:13:04,585 [INFO] [StaffFilter] Promoted T1515 to STAFF (score=2.0)
+2026-06-04 20:13:04,711 [INFO]   [CAMA]  48.0%  18.0 proc-fps  ETA 1.5 min  tracks=4  events=1415
+2026-06-04 20:13:08,664 [INFO] [StaffFilter] Promoted T1524 to STAFF (score=2.0)
+2026-06-04 20:13:22,004 [INFO]   [CAMA]  57.6%  17.9 proc-fps  ETA 1.2 min  tracks=4  events=1944
+2026-06-04 20:13:37,116 [INFO] [StaffFilter] Promoted T1532 to STAFF (score=2.0)
+2026-06-04 20:13:38,258 [INFO]   [CAMA]  67.2%  18.0 proc-fps  ETA 0.9 min  tracks=5  events=2366
+2026-06-04 20:13:42,647 [INFO] [StaffFilter] Promoted T1534 to STAFF (score=2.0)
+2026-06-04 20:13:54,443 [INFO]   [CAMA]  76.8%  18.1 proc-fps  ETA 0.7 min  tracks=4  events=2743
+2026-06-04 20:13:59,132 [INFO] [CAMA] Re-entry detected: T1493 (gap=15.0s)
+2026-06-04 20:14:05,556 [INFO] [StaffFilter] Promoted T1546 to STAFF (score=2.0)
+2026-06-04 20:14:05,904 [INFO] [StaffFilter] Promoted T1547 to STAFF (score=2.0)
+2026-06-04 20:14:08,297 [INFO] [StaffFilter] Promoted T1550 to STAFF (score=2.0)
+2026-06-04 20:14:11,362 [INFO]   [CAMA]  86.4%  18.0 proc-fps  ETA 0.4 min  tracks=4  events=3244
+2026-06-04 20:14:27,927 [INFO]   [CAMA]  96.0%  18.0 proc-fps  ETA 0.1 min  tracks=4  events=3761
+2026-06-04 20:14:28,062 [INFO] [CAMA] Transcoding to H.264…
+2026-06-04 20:14:46,116 [INFO] [CAMA] Transcode complete.
+2026-06-04 20:14:46,171 [INFO] [CAMA] ✓ Finished  3002 frames | 3769 events | 3.1 min wall-time | billed_customer=0 re_entry=2
+2026-06-04 20:14:46,172 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMA_annotated.mp4
+2026-06-04 20:14:46,172 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMA_events.jsonl
+2026-06-04 20:14:46,173 [INFO] 
+2026-06-04 20:14:46,175 [INFO]   >> Camera CAMB (entry): data/videos/Store 2/entry 1.mp4
+2026-06-04 20:14:46,252 [INFO] [CAMB] 960×1080 @ 25.0 fps | 2636 frames (1.8 min) | role=entry | skip=2
+2026-06-04 20:15:00,249 [INFO]   [CAMB]  11.4%  21.4 proc-fps  ETA 1.8 min  tracks=4  events=18
+2026-06-04 20:15:03,974 [INFO] [StaffFilter] Promoted T1592 to STAFF (score=2.0)
+2026-06-04 20:15:14,217 [INFO]   [CAMB]  22.8%  21.5 proc-fps  ETA 1.6 min  tracks=2  events=88
+2026-06-04 20:15:29,126 [INFO]   [CAMB]  34.1%  21.0 proc-fps  ETA 1.4 min  tracks=1  events=202
+2026-06-04 20:15:44,178 [INFO]   [CAMB]  45.5%  20.7 proc-fps  ETA 1.2 min  tracks=4  events=340
+2026-06-04 20:16:01,377 [INFO]   [CAMB]  56.9%  20.0 proc-fps  ETA 0.9 min  tracks=7  events=676
+2026-06-04 20:16:04,909 [INFO] [CAMB] Re-entry detected: T1630 (gap=3.4s)
+2026-06-04 20:16:07,504 [INFO] [CAMB] Re-entry detected: T1615 (gap=1.1s)
+2026-06-04 20:16:09,515 [INFO] [CAMB] Re-entry detected: T1619 (gap=11.7s)
+2026-06-04 20:16:12,624 [INFO] [CAMB] Re-entry detected: T1599 (gap=4.0s)
+2026-06-04 20:16:19,047 [INFO]   [CAMB]  68.3%  19.4 proc-fps  ETA 0.7 min  tracks=13  events=1084
+2026-06-04 20:16:34,918 [INFO]   [CAMB]  79.7%  19.3 proc-fps  ETA 0.5 min  tracks=2  events=1293
+2026-06-04 20:16:47,929 [INFO] [CAMB] Re-entry detected: T1599 (gap=21.2s)
+2026-06-04 20:16:51,233 [INFO]   [CAMB]  91.0%  19.2 proc-fps  ETA 0.2 min  tracks=3  events=1535
+2026-06-04 20:16:56,209 [INFO] [CAMB] Re-entry detected: T1604 (gap=47.8s)
+2026-06-04 20:16:56,521 [INFO] [CAMB] Transcoding to H.264…
+2026-06-04 20:17:12,063 [INFO] [CAMB] Transcode complete.
+2026-06-04 20:17:12,079 [INFO] [CAMB] ✓ Finished  2502 frames | 1598 events | 2.4 min wall-time | billed_customer=0 re_entry=6
+2026-06-04 20:17:12,080 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMB_annotated.mp4
+2026-06-04 20:17:12,080 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMB_events.jsonl
+2026-06-04 20:17:12,081 [INFO] 
+2026-06-04 20:17:12,082 [INFO]   >> Camera CAMC (entry): data/videos/Store 2/entry 2.mp4
+2026-06-04 20:17:12,210 [INFO] [CAMC] 960×1080 @ 25.0 fps | 2129 frames (1.4 min) | role=entry | skip=2
+2026-06-04 20:17:30,395 [INFO]   [CAMC]  14.1%  16.5 proc-fps  ETA 1.8 min  tracks=4  events=357
+2026-06-04 20:17:39,235 [INFO] [StaffFilter] Promoted T1883 to STAFF (score=2.0)
+2026-06-04 20:17:48,046 [INFO]   [CAMC]  28.2%  16.7 proc-fps  ETA 1.5 min  tracks=5  events=719
+2026-06-04 20:17:57,030 [INFO] [StaffFilter] Promoted T1921 to STAFF (score=2.0)
+2026-06-04 20:18:04,969 [INFO]   [CAMC]  42.3%  17.1 proc-fps  ETA 1.2 min  tracks=9  events=1050
+2026-06-04 20:18:16,066 [INFO] [StaffFilter] Promoted T1974 to STAFF (score=2.0)
+2026-06-04 20:18:16,180 [INFO] [CAMC] Re-entry detected: T1963 (gap=3.0s)
+2026-06-04 20:18:21,855 [INFO]   [CAMC]  56.4%  17.2 proc-fps  ETA 0.9 min  tracks=4  events=1381
+2026-06-04 20:18:35,891 [INFO] [CAMC] Re-entry detected: T1869 (gap=38.0s)
+2026-06-04 20:18:38,591 [INFO] [CAMC] Re-entry detected: T1916 (gap=11.2s)
+2026-06-04 20:18:38,872 [INFO]   [CAMC]  70.5%  17.3 proc-fps  ETA 0.6 min  tracks=16  events=1660
+2026-06-04 20:18:39,285 [INFO] [CAMC] Re-entry detected: T2037 (gap=0.2s)
+2026-06-04 20:18:43,582 [INFO] [StaffFilter] Promoted T2124 to STAFF (score=2.0)
+2026-06-04 20:18:49,148 [INFO] [CAMC] Re-entry detected: T1905 (gap=38.7s)
+2026-06-04 20:18:54,395 [INFO] [StaffFilter] Promoted T2207 to STAFF (score=2.0)
+2026-06-04 20:18:58,163 [INFO]   [CAMC]  84.5%  17.0 proc-fps  ETA 0.3 min  tracks=7  events=2194
+2026-06-04 20:19:00,252 [INFO] [StaffFilter] Promoted T2230 to STAFF (score=2.0)
+2026-06-04 20:19:03,446 [INFO] [CAMC] Transcoding to H.264…
+2026-06-04 20:19:16,450 [INFO] [CAMC] Transcode complete.
+2026-06-04 20:19:16,493 [INFO] [CAMC] ✓ Finished  1902 frames | 2263 events | 2.1 min wall-time | billed_customer=0 re_entry=5
+2026-06-04 20:19:16,494 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMC_annotated.mp4
+2026-06-04 20:19:16,494 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMC_events.jsonl
+2026-06-04 20:19:16,495 [INFO] 
+2026-06-04 20:19:16,496 [INFO]   >> Camera CAMD (zone): data/videos/Store 2/zone.mp4
+2026-06-04 20:19:16,582 [INFO] [CAMD] 960×1080 @ 25.0 fps | 2898 frames (1.9 min) | role=zone | skip=2
+2026-06-04 20:19:31,118 [INFO]   [CAMD]  10.4%  20.7 proc-fps  ETA 2.1 min  tracks=0  events=0
+2026-06-04 20:19:45,493 [INFO] [StaffFilter] Promoted T2231 to STAFF (score=2.0)
+2026-06-04 20:19:46,182 [INFO]   [CAMD]  20.7%  20.3 proc-fps  ETA 1.9 min  tracks=1  events=8
+2026-06-04 20:19:50,322 [INFO] [StaffFilter] Promoted T2240 to STAFF (score=2.0)
+2026-06-04 20:20:03,847 [INFO]   [CAMD]  31.1%  19.0 proc-fps  ETA 1.7 min  tracks=1  events=93
+2026-06-04 20:20:21,584 [INFO]   [CAMD]  41.4%  18.5 proc-fps  ETA 1.5 min  tracks=3  events=262
+2026-06-04 20:20:35,721 [INFO] [CAMD] Re-entry detected: T2252 (gap=1.6s)
+2026-06-04 20:20:38,470 [INFO] [StaffFilter] Promoted T2283 to STAFF (score=2.0)
+2026-06-04 20:20:41,800 [INFO] [CAMD] Re-entry detected: T2237 (gap=30.7s)
+2026-06-04 20:20:42,275 [INFO]   [CAMD]  51.8%  17.5 proc-fps  ETA 1.3 min  tracks=8  events=695
+2026-06-04 20:20:58,573 [INFO] [CAMD] Re-entry detected: T2135 (gap=14.2s)
+2026-06-04 20:20:59,306 [INFO] [StaffFilter] Promoted T2318 to STAFF (score=2.0)
+2026-06-04 20:21:01,201 [INFO]   [CAMD]  62.1%  17.2 proc-fps  ETA 1.1 min  tracks=4  events=1038
+2026-06-04 20:21:16,826 [INFO]   [CAMD]  72.5%  17.5 proc-fps  ETA 0.8 min  tracks=2  events=1250
+2026-06-04 20:21:32,216 [INFO]   [CAMD]  82.8%  17.7 proc-fps  ETA 0.5 min  tracks=2  events=1445
+2026-06-04 20:21:48,579 [INFO]   [CAMD]  93.2%  17.8 proc-fps  ETA 0.2 min  tracks=1  events=1494
+2026-06-04 20:22:00,692 [INFO] [CAMD] Transcoding to H.264…
+2026-06-04 20:22:19,906 [INFO] [CAMD] Transcode complete.
+2026-06-04 20:22:19,924 [INFO] [CAMD] ✓ Finished  2898 frames | 1625 events | 3.1 min wall-time | billed_customer=0 re_entry=3
+2026-06-04 20:22:19,925 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMD_annotated.mp4
+2026-06-04 20:22:19,925 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMD_events.jsonl
+2026-06-04 20:22:19,927 [INFO] 
+2026-06-04 20:22:19,928 [INFO]   ✓ Store summary → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\summary.json
+2026-06-04 20:22:19,930 [INFO]     events=9255  customers=167  staff=22  billed=0  re_entries=16
+2026-06-04 20:22:20,091 [INFO]   ✓ Consolidated events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\ST1008_events.jsonl (9255 total events from 4 cameras)
+2026-06-04 20:22:20,092 [INFO] 
+2026-06-04 20:22:20,092 [INFO] =================================================================
+2026-06-04 20:22:20,093 [INFO]   ALL DONE in 32.1 min
+2026-06-04 20:22:20,093 [INFO]   Outputs in: D:\purpell\v2\store-intelligence\pipeline\data\output
+2026-06-04 20:22:20,093 [INFO] =================================================================
+2026-06-04 20:53:04,109 [INFO] MobileNetV3 Re-ID loaded on cpu.
+2026-06-04 20:53:04,112 [INFO] =================================================================
+2026-06-04 20:53:04,113 [INFO]   Purplle Store Intelligence — Video Processor
+2026-06-04 20:53:04,113 [INFO]   Started at 2026-06-04 20:53:04
+2026-06-04 20:53:04,113 [INFO] =================================================================
+2026-06-04 20:53:04,116 [INFO] Loading YOLOv11n model …
+2026-06-04 20:53:04,193 [INFO] 
+2026-06-04 20:53:04,193 [INFO] ==  Mumbai Central (ST1076)  [4 cameras, 7 zones]  ==
+2026-06-04 20:53:04,194 [INFO] 
+2026-06-04 20:53:04,194 [INFO]   >> Camera CAM1 (zone): data/videos/Store 1/CAM 1 - zone.mp4
+2026-06-04 20:53:04,310 [INFO] [CAM1] 1920×1080 @ 30.0 fps | 4193 frames (2.3 min) | role=zone | skip=2
+2026-06-04 20:53:04,651 [INFO] [StaffFilter] Promoted T1 to STAFF (score=2.0)
+2026-06-04 20:53:05,808 [INFO] [FaceAnalyzer] Haar cascades loaded.
+2026-06-04 20:53:05,809 [INFO] [FaceAnalyzer] Downloading gender prototxt …
+2026-06-04 20:53:06,148 [INFO] [FaceAnalyzer] ✓ gender prototxt saved to D:\purpell\v2\store-intelligence\pipeline\models\gender_deploy.prototxt
+2026-06-04 20:53:06,149 [INFO] [FaceAnalyzer] Downloading gender caffemodel …
+2026-06-04 20:54:21,886 [INFO] [FaceAnalyzer] ✓ gender caffemodel saved to D:\purpell\v2\store-intelligence\pipeline\models\gender_net.caffemodel
+2026-06-04 20:54:21,887 [INFO] [FaceAnalyzer] Downloading age prototxt …
+2026-06-04 20:54:22,359 [INFO] [FaceAnalyzer] ✓ age prototxt saved to D:\purpell\v2\store-intelligence\pipeline\models\age_deploy.prototxt
+2026-06-04 20:54:22,361 [INFO] [FaceAnalyzer] Downloading age caffemodel …
+2026-06-04 20:55:34,639 [INFO] [FaceAnalyzer] ✓ age caffemodel saved to D:\purpell\v2\store-intelligence\pipeline\models\age_net.caffemodel
+2026-06-04 20:55:35,346 [INFO] [FaceAnalyzer] Gender DNN loaded.
+2026-06-04 20:55:35,444 [INFO] [FaceAnalyzer] Age DNN loaded.
+2026-06-04 20:55:39,348 [INFO] [StaffFilter] Promoted T4 to STAFF (score=2.0)
+2026-06-04 20:55:43,550 [INFO] [StaffFilter] Promoted T8 to STAFF (score=2.0)
+2026-06-04 20:55:44,986 [INFO] [StaffFilter] Promoted T10 to STAFF (score=2.0)
+2026-06-04 20:55:48,880 [INFO] [StaffFilter] Promoted T14 to STAFF (score=2.0)
+2026-06-04 20:55:55,314 [INFO] [StaffFilter] Promoted T19 to STAFF (score=2.0)
+2026-06-04 20:56:00,092 [INFO]   [CAM1]   7.2%  1.7 proc-fps  ETA 38.0 min  tracks=5  events=394
+2026-06-04 20:56:17,643 [INFO] [CAM1] Re-entry detected: T20 (gap=3.8s)
+2026-06-04 20:56:18,080 [INFO] [StaffFilter] Promoted T48 to STAFF (score=2.0)
+2026-06-04 20:56:19,234 [INFO] [CAM1] Re-entry detected: T7 (gap=9.8s)
+2026-06-04 20:56:20,471 [INFO] [StaffFilter] Promoted T54 to STAFF (score=2.0)
+2026-06-04 20:56:22,692 [INFO]   [CAM1]  14.3%  3.0 proc-fps  ETA 19.8 min  tracks=7  events=749
+2026-06-04 20:56:23,263 [INFO] [StaffFilter] Promoted T58 to STAFF (score=2.0)
+2026-06-04 20:56:24,993 [INFO] [StaffFilter] Promoted T61 to STAFF (score=2.0)
+2026-06-04 20:56:27,316 [INFO] [StaffFilter] Promoted T62 to STAFF (score=2.0)
+2026-06-04 20:56:27,894 [INFO] [CAM1] Re-entry detected: T7 (gap=0.5s)
+2026-06-04 20:56:31,325 [INFO] [StaffFilter] Promoted T66 to STAFF (score=2.0)
+2026-06-04 20:56:33,012 [INFO] [StaffFilter] Promoted T69 to STAFF (score=2.0)
+2026-06-04 20:56:35,624 [INFO] [StaffFilter] Promoted T70 to STAFF (score=2.0)
+2026-06-04 20:56:39,023 [INFO] [StaffFilter] Promoted T77 to STAFF (score=2.0)
+2026-06-04 20:56:44,255 [INFO] [StaffFilter] Promoted T96 to STAFF (score=2.0)
+2026-06-04 20:56:44,871 [INFO]   [CAM1]  21.5%  4.1 proc-fps  ETA 13.4 min  tracks=5  events=1256
+2026-06-04 20:57:09,193 [INFO]   [CAM1]  28.6%  4.9 proc-fps  ETA 10.2 min  tracks=4  events=1782
+2026-06-04 20:57:15,184 [INFO] [StaffFilter] Promoted T115 to STAFF (score=2.0)
+2026-06-04 20:57:24,160 [INFO] [StaffFilter] Promoted T122 to STAFF (score=2.0)
+2026-06-04 20:57:34,276 [INFO] [StaffFilter] Promoted T126 to STAFF (score=2.0)
+2026-06-04 20:57:34,428 [INFO] [StaffFilter] Promoted T127 to STAFF (score=2.0)
+2026-06-04 20:57:35,973 [INFO] [CAM1] Re-entry detected: T49 (gap=25.7s)
+2026-06-04 20:57:36,286 [INFO] [StaffFilter] Promoted T131 to STAFF (score=2.0)
+2026-06-04 20:57:36,471 [INFO] [StaffFilter] Promoted T132 to STAFF (score=2.0)
+2026-06-04 20:57:36,632 [INFO]   [CAM1]  35.8%  5.5 proc-fps  ETA 8.1 min  tracks=8  events=2326
+2026-06-04 20:57:40,209 [INFO] [StaffFilter] Promoted T139 to STAFF (score=2.0)
+2026-06-04 20:57:41,971 [INFO] [StaffFilter] Promoted T146 to STAFF (score=2.0)
+2026-06-04 20:57:42,274 [INFO] [StaffFilter] Promoted T148 to STAFF (score=2.0)
+2026-06-04 20:57:45,206 [INFO] [StaffFilter] Promoted T149 to STAFF (score=2.0)
+2026-06-04 20:57:52,277 [INFO] [StaffFilter] Promoted T156 to STAFF (score=2.0)
+2026-06-04 20:57:59,402 [INFO]   [CAM1]  42.9%  6.1 proc-fps  ETA 6.5 min  tracks=6  events=3035
+2026-06-04 20:58:09,906 [INFO] [StaffFilter] Promoted T177 to STAFF (score=2.0)
+2026-06-04 20:58:21,609 [INFO]   [CAM1]  50.1%  6.6 proc-fps  ETA 5.3 min  tracks=3  events=3493
+2026-06-04 20:58:29,659 [INFO] [StaffFilter] Promoted T198 to STAFF (score=2.0)
+2026-06-04 20:58:36,845 [INFO] [StaffFilter] Promoted T200 to STAFF (score=2.0)
+2026-06-04 20:58:43,809 [INFO]   [CAM1]  57.2%  7.1 proc-fps  ETA 4.2 min  tracks=4  events=4023
+2026-06-04 20:58:44,238 [INFO] [CAM1] Re-entry detected: T7 (gap=54.5s)
+2026-06-04 20:58:49,405 [INFO] [StaffFilter] Promoted T209 to STAFF (score=2.0)
+2026-06-04 20:58:58,950 [INFO] [StaffFilter] Promoted T211 to STAFF (score=2.0)
+2026-06-04 20:59:02,351 [INFO] [StaffFilter] Promoted T217 to STAFF (score=2.0)
+2026-06-04 20:59:05,714 [INFO]   [CAM1]  64.4%  7.5 proc-fps  ETA 3.3 min  tracks=6  events=4585
+2026-06-04 20:59:16,582 [INFO] [StaffFilter] Promoted T225 to STAFF (score=2.0)
+2026-06-04 20:59:23,932 [INFO] [StaffFilter] Promoted T228 to STAFF (score=2.0)
+2026-06-04 20:59:27,506 [INFO]   [CAM1]  71.5%  7.8 proc-fps  ETA 2.5 min  tracks=5  events=5174
+2026-06-04 20:59:28,510 [INFO] [StaffFilter] Promoted T240 to STAFF (score=2.0)
+2026-06-04 20:59:28,800 [INFO] [StaffFilter] Promoted T244 to STAFF (score=2.0)
+2026-06-04 20:59:34,523 [INFO] [StaffFilter] Promoted T253 to STAFF (score=2.0)
+2026-06-04 20:59:37,535 [INFO] [StaffFilter] Promoted T261 to STAFF (score=2.0)
+2026-06-04 20:59:42,464 [INFO] [StaffFilter] Promoted T268 to STAFF (score=2.0)
+2026-06-04 20:59:44,801 [INFO] [CAM1] Re-entry detected: T2 (gap=44.2s)
+2026-06-04 20:59:46,099 [INFO] [StaffFilter] Promoted T275 to STAFF (score=2.0)
+2026-06-04 20:59:48,391 [INFO] [StaffFilter] Promoted T277 to STAFF (score=2.0)
+2026-06-04 20:59:49,432 [INFO]   [CAM1]  78.7%  8.1 proc-fps  ETA 1.8 min  tracks=11  events=5883
+2026-06-04 20:59:51,717 [INFO] [StaffFilter] Promoted T286 to STAFF (score=2.0)
+2026-06-04 20:59:55,398 [INFO] [StaffFilter] Promoted T302 to STAFF (score=2.0)
+2026-06-04 20:59:56,206 [INFO] [CAM1] Re-entry detected: T7 (gap=29.8s)
+2026-06-04 20:59:56,482 [INFO] [CAM1] Re-entry detected: T2 (gap=1.3s)
+2026-06-04 20:59:56,906 [INFO] [StaffFilter] Promoted T312 to STAFF (score=2.0)
+2026-06-04 20:59:57,419 [INFO] [StaffFilter] Promoted T309 to STAFF (score=2.0)
+2026-06-04 20:59:57,563 [INFO] [StaffFilter] Promoted T313 to STAFF (score=2.0)
+2026-06-04 20:59:57,707 [INFO] [StaffFilter] Promoted T315 to STAFF (score=2.0)
+2026-06-04 20:59:59,061 [INFO] [StaffFilter] Promoted T318 to STAFF (score=2.0)
+2026-06-04 21:00:11,923 [INFO]   [CAM1]  85.9%  8.4 proc-fps  ETA 1.2 min  tracks=6  events=6534
+2026-06-04 21:00:13,140 [INFO] [StaffFilter] Promoted T335 to STAFF (score=2.0)
+2026-06-04 21:00:25,533 [INFO] [StaffFilter] Promoted T345 to STAFF (score=2.0)
+2026-06-04 21:00:29,679 [INFO] [StaffFilter] Promoted T354 to STAFF (score=2.0)
+2026-06-04 21:00:31,727 [INFO] [StaffFilter] Promoted T355 to STAFF (score=2.0)
+2026-06-04 21:00:33,366 [INFO] [StaffFilter] Promoted T358 to STAFF (score=2.0)
+2026-06-04 21:00:33,514 [INFO] [StaffFilter] Promoted T359 to STAFF (score=2.0)
+2026-06-04 21:00:33,878 [INFO]   [CAM1]  93.0%  8.7 proc-fps  ETA 0.6 min  tracks=7  events=7087
+2026-06-04 21:00:47,588 [INFO] [StaffFilter] Promoted T371 to STAFF (score=2.0)
+2026-06-04 21:00:52,614 [INFO] [StaffFilter] Promoted T373 to STAFF (score=2.0)
+2026-06-04 21:00:56,146 [INFO] [CAM1] Transcoding to H.264…
+2026-06-04 21:01:43,308 [INFO] [CAM1] Transcode complete.
+2026-06-04 21:01:43,367 [INFO] [CAM1] ✓ Finished  4193 frames | 7714 events | 8.7 min wall-time | billed_customer=0 re_entry=8
+2026-06-04 21:01:43,367 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM1_annotated.mp4
+2026-06-04 21:01:43,367 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM1_events.jsonl
+2026-06-04 21:01:43,370 [INFO] 
+2026-06-04 21:01:43,370 [INFO]   >> Camera CAM2 (zone): data/videos/Store 1/CAM 2 - zone.mp4
+2026-06-04 21:01:43,555 [INFO] [CAM2] 1920×1080 @ 30.0 fps | 3774 frames (2.1 min) | role=zone | skip=2
+2026-06-04 21:01:43,897 [INFO] [StaffFilter] Promoted T376 to STAFF (score=2.0)
+2026-06-04 21:01:43,898 [INFO] [StaffFilter] Promoted T377 to STAFF (score=2.0)
+2026-06-04 21:01:43,899 [INFO] [StaffFilter] Promoted T378 to STAFF (score=2.0)
+2026-06-04 21:01:45,542 [INFO] [StaffFilter] Promoted T383 to STAFF (score=2.0)
+2026-06-04 21:01:51,690 [INFO] [StaffFilter] Promoted T395 to STAFF (score=2.0)
+2026-06-04 21:01:53,688 [INFO] [StaffFilter] Promoted T399 to STAFF (score=2.0)
+2026-06-04 21:01:53,836 [INFO] [StaffFilter] Promoted T400 to STAFF (score=2.0)
+2026-06-04 21:01:54,752 [INFO] [StaffFilter] Promoted T406 to STAFF (score=2.0)
+2026-06-04 21:01:55,558 [INFO] [StaffFilter] Promoted T409 to STAFF (score=2.0)
+2026-06-04 21:01:59,717 [INFO] [StaffFilter] Promoted T418 to STAFF (score=2.0)
+2026-06-04 21:02:07,944 [INFO]   [CAM2]   7.9%  12.3 proc-fps  ETA 4.7 min  tracks=5  events=629
+2026-06-04 21:02:14,788 [INFO] [StaffFilter] Promoted T463 to STAFF (score=2.0)
+2026-06-04 21:02:16,382 [INFO] [StaffFilter] Promoted T468 to STAFF (score=2.0)
+2026-06-04 21:02:17,087 [INFO] [StaffFilter] Promoted T473 to STAFF (score=2.0)
+2026-06-04 21:02:18,202 [INFO] [StaffFilter] Promoted T480 to STAFF (score=2.0)
+2026-06-04 21:02:19,827 [INFO] [StaffFilter] Promoted T490 to STAFF (score=2.0)
+2026-06-04 21:02:20,683 [INFO] [CAM2] Re-entry detected: T387 (gap=3.1s)
+2026-06-04 21:02:21,142 [INFO] [StaffFilter] Promoted T496 to STAFF (score=2.0)
+2026-06-04 21:02:22,012 [INFO] [StaffFilter] Promoted T497 to STAFF (score=2.0)
+2026-06-04 21:02:30,132 [INFO] [StaffFilter] Promoted T507 to STAFF (score=2.0)
+2026-06-04 21:02:30,900 [INFO] [StaffFilter] Promoted T518 to STAFF (score=2.0)
+2026-06-04 21:02:31,680 [INFO]   [CAM2]  15.9%  12.5 proc-fps  ETA 4.2 min  tracks=7  events=1326
+2026-06-04 21:02:47,082 [INFO] [StaffFilter] Promoted T562 to STAFF (score=2.0)
+2026-06-04 21:02:50,713 [INFO] [StaffFilter] Promoted T573 to STAFF (score=2.0)
+2026-06-04 21:02:54,534 [INFO]   [CAM2]  23.8%  12.7 proc-fps  ETA 3.8 min  tracks=7  events=2094
+2026-06-04 21:02:59,828 [INFO] [StaffFilter] Promoted T596 to STAFF (score=2.0)
+2026-06-04 21:03:00,469 [INFO] [StaffFilter] Promoted T602 to STAFF (score=2.0)
+2026-06-04 21:03:08,297 [INFO] [StaffFilter] Promoted T631 to STAFF (score=2.0)
+2026-06-04 21:03:09,210 [INFO] [StaffFilter] Promoted T640 to STAFF (score=2.0)
+2026-06-04 21:03:10,822 [INFO] [StaffFilter] Promoted T658 to STAFF (score=2.0)
+2026-06-04 21:03:11,301 [INFO] [StaffFilter] Promoted T661 to STAFF (score=2.0)
+2026-06-04 21:03:11,588 [INFO] [StaffFilter] Promoted T664 to STAFF (score=2.0)
+2026-06-04 21:03:17,263 [INFO]   [CAM2]  31.8%  12.8 proc-fps  ETA 3.3 min  tracks=8  events=2821
+2026-06-04 21:03:21,892 [INFO] [StaffFilter] Promoted T672 to STAFF (score=2.0)
+2026-06-04 21:03:28,764 [INFO] [StaffFilter] Promoted T675 to STAFF (score=2.0)
+2026-06-04 21:03:28,764 [INFO] [StaffFilter] Promoted T676 to STAFF (score=2.0)
+2026-06-04 21:03:30,554 [INFO] [StaffFilter] Promoted T677 to STAFF (score=2.0)
+2026-06-04 21:03:31,487 [INFO] [StaffFilter] Promoted T678 to STAFF (score=2.0)
+2026-06-04 21:03:32,848 [INFO] [CAM2] Re-entry detected: T386 (gap=40.4s)
+2026-06-04 21:03:32,995 [INFO] [StaffFilter] Promoted T682 to STAFF (score=2.0)
+2026-06-04 21:03:33,143 [INFO] [StaffFilter] Promoted T685 to STAFF (score=2.0)
+2026-06-04 21:03:38,437 [INFO] [StaffFilter] Promoted T688 to STAFF (score=2.0)
+2026-06-04 21:03:39,965 [INFO]   [CAM2]  39.7%  12.9 proc-fps  ETA 2.9 min  tracks=8  events=3612
+2026-06-04 21:03:42,972 [INFO] [StaffFilter] Promoted T698 to STAFF (score=2.0)
+2026-06-04 21:03:46,576 [INFO] [StaffFilter] Promoted T719 to STAFF (score=2.0)
+2026-06-04 21:03:46,870 [INFO] [StaffFilter] Promoted T721 to STAFF (score=2.0)
+2026-06-04 21:03:56,844 [INFO] [StaffFilter] Promoted T743 to STAFF (score=2.0)
+2026-06-04 21:03:57,582 [INFO] [StaffFilter] Promoted T745 to STAFF (score=2.0)
+2026-06-04 21:03:58,016 [INFO] [StaffFilter] Promoted T746 to STAFF (score=2.0)
+2026-06-04 21:03:58,912 [INFO] [StaffFilter] Promoted T754 to STAFF (score=2.0)
+2026-06-04 21:04:02,343 [INFO]   [CAM2]  47.7%  13.0 proc-fps  ETA 2.5 min  tracks=8  events=4397
+2026-06-04 21:04:05,070 [INFO] [StaffFilter] Promoted T757 to STAFF (score=2.0)
+2026-06-04 21:04:15,726 [INFO] [StaffFilter] Promoted T775 to STAFF (score=2.0)
+2026-06-04 21:04:25,329 [INFO]   [CAM2]  55.6%  13.0 proc-fps  ETA 2.1 min  tracks=6  events=5206
+2026-06-04 21:04:32,339 [INFO] [StaffFilter] Promoted T799 to STAFF (score=2.0)
+2026-06-04 21:04:34,400 [INFO] [StaffFilter] Promoted T805 to STAFF (score=2.0)
+2026-06-04 21:04:34,400 [INFO] [StaffFilter] Promoted T806 to STAFF (score=2.0)
+2026-06-04 21:04:37,056 [INFO] [StaffFilter] Promoted T809 to STAFF (score=2.0)
+2026-06-04 21:04:37,351 [INFO] [StaffFilter] Promoted T811 to STAFF (score=2.0)
+2026-06-04 21:04:38,413 [INFO] [StaffFilter] Promoted T814 to STAFF (score=2.0)
+2026-06-04 21:04:41,404 [INFO] [StaffFilter] Promoted T821 to STAFF (score=2.0)
+2026-06-04 21:04:41,829 [INFO] [StaffFilter] Promoted T823 to STAFF (score=2.0)
+2026-06-04 21:04:44,830 [INFO] [StaffFilter] Promoted T834 to STAFF (score=2.0)
+2026-06-04 21:04:48,085 [INFO]   [CAM2]  63.6%  13.0 proc-fps  ETA 1.8 min  tracks=9  events=6023
+2026-06-04 21:04:50,630 [INFO] [StaffFilter] Promoted T858 to STAFF (score=2.0)
+2026-06-04 21:04:52,765 [INFO] [StaffFilter] Promoted T860 to STAFF (score=2.0)
+2026-06-04 21:04:52,766 [INFO] [StaffFilter] Promoted T861 to STAFF (score=2.0)
+2026-06-04 21:04:57,170 [INFO] [StaffFilter] Promoted T867 to STAFF (score=2.0)
+2026-06-04 21:04:59,486 [INFO] [StaffFilter] Promoted T875 to STAFF (score=2.0)
+2026-06-04 21:04:59,640 [INFO] [StaffFilter] Promoted T876 to STAFF (score=2.0)
+2026-06-04 21:05:00,251 [INFO] [StaffFilter] Promoted T878 to STAFF (score=2.0)
+2026-06-04 21:05:10,284 [INFO] [StaffFilter] Promoted T923 to STAFF (score=2.0)
+2026-06-04 21:05:10,302 [INFO]   [CAM2]  71.5%  13.1 proc-fps  ETA 1.4 min  tracks=8  events=6804
+2026-06-04 21:05:16,959 [INFO] [StaffFilter] Promoted T925 to STAFF (score=2.0)
+2026-06-04 21:05:17,718 [INFO] [StaffFilter] Promoted T927 to STAFF (score=2.0)
+2026-06-04 21:05:19,602 [INFO] [StaffFilter] Promoted T929 to STAFF (score=2.0)
+2026-06-04 21:05:25,481 [INFO] [StaffFilter] Promoted T940 to STAFF (score=2.0)
+2026-06-04 21:05:28,754 [INFO] [StaffFilter] Promoted T942 to STAFF (score=2.0)
+2026-06-04 21:05:32,585 [INFO]   [CAM2]  79.5%  13.1 proc-fps  ETA 1.0 min  tracks=7  events=7511
+2026-06-04 21:05:54,517 [INFO] [StaffFilter] Promoted T974 to STAFF (score=2.0)
+2026-06-04 21:05:55,729 [INFO]   [CAM2]  87.4%  13.1 proc-fps  ETA 0.6 min  tracks=8  events=8206
+2026-06-04 21:06:04,789 [INFO] [StaffFilter] Promoted T977 to STAFF (score=2.0)
+2026-06-04 21:06:07,259 [INFO] [StaffFilter] Promoted T983 to STAFF (score=2.0)
+2026-06-04 21:06:07,591 [INFO] [StaffFilter] Promoted T984 to STAFF (score=2.0)
+2026-06-04 21:06:20,693 [INFO] [StaffFilter] Promoted T1009 to STAFF (score=2.0)
+2026-06-04 21:06:20,708 [INFO]   [CAM2]  95.4%  13.0 proc-fps  ETA 0.2 min  tracks=5  events=8812
+2026-06-04 21:06:27,548 [INFO] [StaffFilter] Promoted T1010 to STAFF (score=2.0)
+2026-06-04 21:06:35,209 [INFO] [CAM2] Transcoding to H.264…
+2026-06-04 21:07:18,689 [INFO] [CAM2] Transcode complete.
+2026-06-04 21:07:18,764 [INFO] [CAM2] ✓ Finished  3774 frames | 9183 events | 5.6 min wall-time | billed_customer=0 re_entry=2
+2026-06-04 21:07:18,764 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM2_annotated.mp4
+2026-06-04 21:07:18,765 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM2_events.jsonl
+2026-06-04 21:07:18,769 [INFO] 
+2026-06-04 21:07:18,769 [INFO]   >> Camera CAM3 (entry): data/videos/Store 1/CAM 3 - entry.mp4
+2026-06-04 21:07:18,977 [INFO] [CAM3] 1920×1080 @ 30.0 fps | 4436 frames (2.5 min) | role=entry | skip=2
+2026-06-04 21:07:19,633 [INFO] [StaffFilter] Promoted T1017 to STAFF (score=2.0)
+2026-06-04 21:07:19,921 [INFO] [StaffFilter] Promoted T1018 to STAFF (score=2.0)
+2026-06-04 21:07:22,701 [INFO] [StaffFilter] Promoted T1024 to STAFF (score=2.0)
+2026-06-04 21:07:23,424 [INFO] [StaffFilter] Promoted T1028 to STAFF (score=2.0)
+2026-06-04 21:07:38,919 [INFO]   [CAM3]   6.8%  15.0 proc-fps  ETA 4.6 min  tracks=1  events=180
+2026-06-04 21:07:56,843 [INFO]   [CAM3]  13.5%  15.8 proc-fps  ETA 4.0 min  tracks=1  events=203
+2026-06-04 21:08:02,120 [INFO] [StaffFilter] Promoted T1046 to STAFF (score=2.0)
+2026-06-04 21:08:09,992 [INFO] [CAM3] Re-entry detected: T1044 (gap=2.8s)
+2026-06-04 21:08:11,404 [INFO] [StaffFilter] Promoted T1051 to STAFF (score=2.0)
+2026-06-04 21:08:15,014 [INFO]   [CAM3]  20.3%  16.1 proc-fps  ETA 3.7 min  tracks=5  events=308
+2026-06-04 21:08:15,304 [INFO] [StaffFilter] Promoted T1064 to STAFF (score=2.0)
+2026-06-04 21:08:18,300 [INFO] [StaffFilter] Promoted T1066 to STAFF (score=2.0)
+2026-06-04 21:08:20,494 [INFO] [StaffFilter] Promoted T1068 to STAFF (score=2.0)
+2026-06-04 21:08:21,471 [INFO] [StaffFilter] Promoted T1069 to STAFF (score=2.0)
+2026-06-04 21:08:32,840 [INFO] [StaffFilter] Promoted T1076 to STAFF (score=2.0)
+2026-06-04 21:08:36,216 [INFO]   [CAM3]  27.1%  15.5 proc-fps  ETA 3.5 min  tracks=3  events=691
+2026-06-04 21:08:52,375 [INFO] [StaffFilter] Promoted T1088 to STAFF (score=2.0)
+2026-06-04 21:08:57,097 [INFO]   [CAM3]  33.8%  15.3 proc-fps  ETA 3.2 min  tracks=5  events=937
+2026-06-04 21:09:11,591 [INFO] [StaffFilter] Promoted T1117 to STAFF (score=2.0)
+2026-06-04 21:09:13,524 [INFO] [StaffFilter] Promoted T1120 to STAFF (score=2.0)
+2026-06-04 21:09:16,943 [INFO] [CAM3] Re-entry detected: T1079 (gap=8.5s)
+2026-06-04 21:09:16,944 [INFO] [StaffFilter] Promoted T1124 to STAFF (score=2.0)
+2026-06-04 21:09:19,991 [INFO]   [CAM3]  40.6%  14.9 proc-fps  ETA 3.0 min  tracks=5  events=1294
+2026-06-04 21:09:24,137 [INFO] [StaffFilter] Promoted T1129 to STAFF (score=2.0)
+2026-06-04 21:09:24,622 [INFO] [StaffFilter] Promoted T1132 to STAFF (score=2.0)
+2026-06-04 21:09:28,308 [INFO] [StaffFilter] Promoted T1140 to STAFF (score=2.0)
+2026-06-04 21:09:29,855 [INFO] [StaffFilter] Promoted T1143 to STAFF (score=2.0)
+2026-06-04 21:09:33,953 [INFO] [StaffFilter] Promoted T1156 to STAFF (score=2.0)
+2026-06-04 21:09:39,992 [INFO]   [CAM3]  47.3%  14.9 proc-fps  ETA 2.6 min  tracks=7  events=1570
+2026-06-04 21:09:47,745 [INFO] [StaffFilter] Promoted T1173 to STAFF (score=2.0)
+2026-06-04 21:09:59,610 [INFO]   [CAM3]  54.1%  14.9 proc-fps  ETA 2.3 min  tracks=1  events=1719
+2026-06-04 21:10:07,415 [INFO] [StaffFilter] Promoted T1187 to STAFF (score=2.0)
+2026-06-04 21:10:09,437 [INFO] [StaffFilter] Promoted T1192 to STAFF (score=2.0)
+2026-06-04 21:10:18,372 [INFO]   [CAM3]  60.9%  15.1 proc-fps  ETA 1.9 min  tracks=3  events=1790
+2026-06-04 21:10:22,941 [INFO] [StaffFilter] Promoted T1211 to STAFF (score=2.0)
+2026-06-04 21:10:23,945 [INFO] [StaffFilter] Promoted T1215 to STAFF (score=2.0)
+2026-06-04 21:10:25,430 [INFO] [StaffFilter] Promoted T1226 to STAFF (score=2.0)
+2026-06-04 21:10:26,695 [INFO] [StaffFilter] Promoted T1230 to STAFF (score=2.0)
+2026-06-04 21:10:27,972 [INFO] [StaffFilter] Promoted T1237 to STAFF (score=2.0)
+2026-06-04 21:10:28,579 [INFO] [StaffFilter] Promoted T1241 to STAFF (score=2.0)
+2026-06-04 21:10:37,564 [INFO] [StaffFilter] Promoted T1259 to STAFF (score=2.0)
+2026-06-04 21:10:37,956 [INFO]   [CAM3]  67.6%  15.1 proc-fps  ETA 1.6 min  tracks=4  events=1951
+2026-06-04 21:10:47,978 [INFO] [StaffFilter] Promoted T1272 to STAFF (score=2.0)
+2026-06-04 21:10:49,629 [INFO] [StaffFilter] Promoted T1279 to STAFF (score=2.0)
+2026-06-04 21:10:50,575 [INFO] [StaffFilter] Promoted T1281 to STAFF (score=2.0)
+2026-06-04 21:10:57,035 [INFO] [StaffFilter] Promoted T1287 to STAFF (score=2.0)
+2026-06-04 21:10:57,194 [INFO]   [CAM3]  74.4%  15.1 proc-fps  ETA 1.3 min  tracks=2  events=2138
+2026-06-04 21:11:15,453 [INFO]   [CAM3]  81.2%  15.2 proc-fps  ETA 0.9 min  tracks=2  events=2194
+2026-06-04 21:11:20,334 [INFO] [StaffFilter] Promoted T1292 to STAFF (score=2.0)
+2026-06-04 21:11:33,394 [INFO]   [CAM3]  87.9%  15.3 proc-fps  ETA 0.6 min  tracks=1  events=2215
+2026-06-04 21:11:35,288 [INFO] [StaffFilter] Promoted T1293 to STAFF (score=2.0)
+2026-06-04 21:11:38,602 [INFO] [StaffFilter] Promoted T1306 to STAFF (score=2.0)
+2026-06-04 21:11:43,677 [INFO] [CAM3] Re-entry detected: T1154 (gap=63.3s)
+2026-06-04 21:11:46,763 [INFO] [CAM3] Re-entry detected: T1079 (gap=71.7s)
+2026-06-04 21:11:48,775 [INFO] [StaffFilter] Promoted T1327 to STAFF (score=2.0)
+2026-06-04 21:11:50,683 [INFO] [StaffFilter] Promoted T1331 to STAFF (score=2.0)
+2026-06-04 21:11:52,266 [INFO] [StaffFilter] Promoted T1337 to STAFF (score=2.0)
+2026-06-04 21:11:53,766 [INFO]   [CAM3]  94.7%  15.3 proc-fps  ETA 0.3 min  tracks=8  events=2430
+2026-06-04 21:11:56,685 [INFO] [StaffFilter] Promoted T1348 to STAFF (score=2.0)
+2026-06-04 21:11:59,474 [INFO] [StaffFilter] Promoted T1350 to STAFF (score=2.0)
+2026-06-04 21:12:06,413 [INFO] [StaffFilter] Promoted T1369 to STAFF (score=2.0)
+2026-06-04 21:12:07,973 [INFO] [StaffFilter] Promoted T1373 to STAFF (score=2.0)
+2026-06-04 21:12:09,228 [INFO] [StaffFilter] Promoted T1382 to STAFF (score=2.0)
+2026-06-04 21:12:10,527 [INFO] [CAM3] Transcoding to H.264…
+2026-06-04 21:12:50,900 [INFO] [CAM3] Transcode complete.
+2026-06-04 21:12:50,919 [INFO] [CAM3] ✓ Finished  4436 frames | 2669 events | 5.5 min wall-time | billed_customer=0 re_entry=4
+2026-06-04 21:12:50,919 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM3_annotated.mp4
+2026-06-04 21:12:50,920 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM3_events.jsonl
+2026-06-04 21:12:50,921 [INFO] 
+2026-06-04 21:12:50,921 [INFO]   >> Camera CAM5 (billing): data/videos/Store 1/CAM 5 - billing.mp4
+2026-06-04 21:12:50,956 [INFO] [CAM5] 1920×1080 @ 25.0 fps | 3465 frames (2.3 min) | role=billing | skip=2
+2026-06-04 21:12:51,312 [INFO] [StaffFilter] Promoted T1391 to STAFF (score=2.0)
+2026-06-04 21:12:53,594 [INFO] [StaffFilter] Promoted T1392 to STAFF (score=2.0)
+2026-06-04 21:12:55,010 [INFO] [StaffFilter] Promoted T1393 to STAFF (score=2.0)
+2026-06-04 21:12:59,286 [INFO] [StaffFilter] Promoted T1395 to STAFF (score=2.0)
+2026-06-04 21:13:01,040 [INFO] [StaffFilter] Promoted T1399 to STAFF (score=2.0)
+2026-06-04 21:13:03,294 [INFO] [StaffFilter] Promoted T1400 to STAFF (score=2.0)
+2026-06-04 21:13:03,294 [INFO] [StaffFilter] Promoted T1401 to STAFF (score=2.0)
+2026-06-04 21:13:10,098 [INFO]   [CAM5]   8.7%  15.7 proc-fps  ETA 3.4 min  tracks=2  events=170
+2026-06-04 21:13:13,628 [INFO] [StaffFilter] Promoted T1403 to STAFF (score=2.0)
+2026-06-04 21:13:14,479 [INFO] [StaffFilter] Promoted T1406 to STAFF (score=2.0)
+2026-06-04 21:13:21,714 [INFO] [StaffFilter] Promoted T1410 to STAFF (score=2.0)
+2026-06-04 21:13:23,999 [INFO] [StaffFilter] Promoted T1411 to STAFF (score=2.0)
+2026-06-04 21:13:30,696 [INFO]   [CAM5]  17.3%  15.1 proc-fps  ETA 3.2 min  tracks=2  events=442
+2026-06-04 21:13:52,099 [INFO]   [CAM5]  26.0%  14.7 proc-fps  ETA 2.9 min  tracks=2  events=742
+2026-06-04 21:13:52,831 [INFO] [StaffFilter] Promoted T1416 to STAFF (score=2.0)
+2026-06-04 21:13:53,117 [INFO] [StaffFilter] Promoted T1417 to STAFF (score=2.0)
+2026-06-04 21:14:02,125 [INFO] [StaffFilter] Promoted T1419 to STAFF (score=2.0)
+2026-06-04 21:14:13,609 [INFO]   [CAM5]  34.6%  14.5 proc-fps  ETA 2.6 min  tracks=2  events=1040
+2026-06-04 21:14:19,469 [INFO] [StaffFilter] Promoted T1429 to STAFF (score=2.0)
+2026-06-04 21:14:30,044 [INFO] [StaffFilter] Promoted T1430 to STAFF (score=2.0)
+2026-06-04 21:14:32,209 [INFO] [StaffFilter] Promoted T1431 to STAFF (score=2.0)
+2026-06-04 21:14:35,485 [INFO]   [CAM5]  43.3%  14.4 proc-fps  ETA 2.3 min  tracks=4  events=1319
+2026-06-04 21:14:42,315 [INFO] [StaffFilter] Promoted T1436 to STAFF (score=2.0)
+2026-06-04 21:14:51,123 [INFO] [StaffFilter] Promoted T1438 to STAFF (score=2.0)
+2026-06-04 21:14:55,638 [INFO]   [CAM5]  51.9%  14.4 proc-fps  ETA 1.9 min  tracks=2  events=1476
+2026-06-04 21:15:14,996 [INFO] [StaffFilter] Promoted T1455 to STAFF (score=2.0)
+2026-06-04 21:15:15,141 [INFO] [StaffFilter] Promoted T1456 to STAFF (score=2.0)
+2026-06-04 21:15:15,158 [INFO]   [CAM5]  60.6%  14.6 proc-fps  ETA 1.6 min  tracks=4  events=1723
+2026-06-04 21:15:34,659 [INFO]   [CAM5]  69.3%  14.7 proc-fps  ETA 1.2 min  tracks=2  events=1817
+2026-06-04 21:15:44,766 [INFO] [StaffFilter] Promoted T1461 to STAFF (score=2.0)
+2026-06-04 21:15:45,289 [INFO] [StaffFilter] Promoted T1464 to STAFF (score=2.0)
+2026-06-04 21:15:48,040 [INFO] [StaffFilter] Promoted T1469 to STAFF (score=2.0)
+2026-06-04 21:15:54,019 [INFO]   [CAM5]  77.9%  14.7 proc-fps  ETA 0.9 min  tracks=2  events=1911
+2026-06-04 21:16:13,204 [INFO]   [CAM5]  86.6%  14.8 proc-fps  ETA 0.5 min  tracks=1  events=1917
+2026-06-04 21:16:20,074 [INFO] [StaffFilter] Promoted T1470 to STAFF (score=2.0)
+2026-06-04 21:16:32,379 [INFO]   [CAM5]  95.2%  14.9 proc-fps  ETA 0.2 min  tracks=1  events=2015
+2026-06-04 21:16:42,859 [INFO] [CAM5] Transcoding to H.264…
+2026-06-04 21:17:22,373 [INFO] [CAM5] Transcode complete.
+2026-06-04 21:17:22,388 [INFO] [CAM5] ✓ Finished  3465 frames | 2098 events | 4.5 min wall-time | billed_customer=0 re_entry=0
+2026-06-04 21:17:22,388 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM5_annotated.mp4
+2026-06-04 21:17:22,389 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\CAM5_events.jsonl
+2026-06-04 21:17:22,392 [INFO] 
+2026-06-04 21:17:22,393 [INFO]   ✓ Store summary → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\summary.json
+2026-06-04 21:17:22,393 [INFO]     events=21664  customers=58  staff=200  billed=0  re_entries=14
+2026-06-04 21:17:22,678 [INFO]   ✓ Consolidated events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1076\ST1076_events.jsonl (21664 total events from 4 cameras)
+2026-06-04 21:17:22,678 [INFO] 
+2026-06-04 21:17:22,678 [INFO] ==  Delhi SelectCitywalk (ST1008)  [4 cameras, 7 zones]  ==
+2026-06-04 21:17:22,679 [INFO] 
+2026-06-04 21:17:22,679 [INFO]   >> Camera CAMA (billing): data/videos/Store 2/billing_area.mp4
+2026-06-04 21:17:22,910 [INFO] [CAMA] 960×1080 @ 25.0 fps | 3126 frames (2.1 min) | role=billing | skip=2
+2026-06-04 21:17:26,294 [INFO] [StaffFilter] Promoted T1473 to STAFF (score=2.0)
+2026-06-04 21:17:26,864 [INFO] [StaffFilter] Promoted T1474 to STAFF (score=2.0)
+2026-06-04 21:17:31,642 [INFO] [FaceAnalyzer] Haar cascades loaded.
+2026-06-04 21:17:31,732 [INFO] [FaceAnalyzer] Gender DNN loaded.
+2026-06-04 21:17:31,809 [INFO] [FaceAnalyzer] Age DNN loaded.
+2026-06-04 21:17:38,456 [INFO]   [CAMA]   9.6%  19.3 proc-fps  ETA 2.4 min  tracks=3  events=117
+2026-06-04 21:17:55,505 [INFO]   [CAMA]  19.2%  18.4 proc-fps  ETA 2.3 min  tracks=2  events=390
+2026-06-04 21:18:02,632 [INFO] [StaffFilter] Promoted T1503 to STAFF (score=2.0)
+2026-06-04 21:18:03,894 [INFO] [StaffFilter] Promoted T1505 to STAFF (score=2.0)
+2026-06-04 21:18:04,590 [INFO] [CAMA] Re-entry detected: T1489 (gap=4.2s)
+2026-06-04 21:18:12,267 [INFO]   [CAMA]  28.8%  18.2 proc-fps  ETA 2.0 min  tracks=3  events=661
+2026-06-04 21:18:30,103 [INFO]   [CAMA]  38.4%  17.9 proc-fps  ETA 1.8 min  tracks=3  events=1037
+2026-06-04 21:18:47,800 [INFO] [StaffFilter] Promoted T1515 to STAFF (score=2.0)
+2026-06-04 21:18:47,918 [INFO]   [CAMA]  48.0%  17.6 proc-fps  ETA 1.5 min  tracks=4  events=1415
+2026-06-04 21:18:52,032 [INFO] [StaffFilter] Promoted T1524 to STAFF (score=2.0)
+2026-06-04 21:19:05,877 [INFO]   [CAMA]  57.6%  17.5 proc-fps  ETA 1.3 min  tracks=4  events=1944
+2026-06-04 21:19:21,489 [INFO] [StaffFilter] Promoted T1532 to STAFF (score=2.0)
+2026-06-04 21:19:22,607 [INFO]   [CAMA]  67.2%  17.5 proc-fps  ETA 1.0 min  tracks=5  events=2366
+2026-06-04 21:19:26,918 [INFO] [StaffFilter] Promoted T1534 to STAFF (score=2.0)
+2026-06-04 21:19:39,137 [INFO]   [CAMA]  76.8%  17.6 proc-fps  ETA 0.7 min  tracks=4  events=2743
+2026-06-04 21:19:44,046 [INFO] [CAMA] Re-entry detected: T1493 (gap=15.0s)
+2026-06-04 21:19:50,841 [INFO] [StaffFilter] Promoted T1546 to STAFF (score=2.0)
+2026-06-04 21:19:51,243 [INFO] [StaffFilter] Promoted T1547 to STAFF (score=2.0)
+2026-06-04 21:19:53,736 [INFO] [StaffFilter] Promoted T1550 to STAFF (score=2.0)
+2026-06-04 21:19:56,825 [INFO]   [CAMA]  86.4%  17.5 proc-fps  ETA 0.4 min  tracks=4  events=3244
+2026-06-04 21:20:14,975 [INFO]   [CAMA]  96.0%  17.4 proc-fps  ETA 0.1 min  tracks=4  events=3761
+2026-06-04 21:20:15,106 [INFO] [CAMA] Transcoding to H.264…
+2026-06-04 21:20:33,056 [INFO] [CAMA] Transcode complete.
+2026-06-04 21:20:33,085 [INFO] [CAMA] ✓ Finished  3002 frames | 3769 events | 3.2 min wall-time | billed_customer=0 re_entry=2
+2026-06-04 21:20:33,086 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMA_annotated.mp4
+2026-06-04 21:20:33,086 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMA_events.jsonl
+2026-06-04 21:20:33,087 [INFO] 
+2026-06-04 21:20:33,088 [INFO]   >> Camera CAMB (entry): data/videos/Store 2/entry 1.mp4
+2026-06-04 21:20:33,110 [INFO] [CAMB] 960×1080 @ 25.0 fps | 2636 frames (1.8 min) | role=entry | skip=2
+2026-06-04 21:20:47,310 [INFO]   [CAMB]  11.4%  21.1 proc-fps  ETA 1.8 min  tracks=4  events=18
+2026-06-04 21:20:51,041 [INFO] [StaffFilter] Promoted T1592 to STAFF (score=2.0)
+2026-06-04 21:21:01,240 [INFO]   [CAMB]  22.8%  21.3 proc-fps  ETA 1.6 min  tracks=2  events=88
+2026-06-04 21:21:16,794 [INFO]   [CAMB]  34.1%  20.6 proc-fps  ETA 1.4 min  tracks=1  events=202
+2026-06-04 21:21:32,187 [INFO]   [CAMB]  45.5%  20.3 proc-fps  ETA 1.2 min  tracks=4  events=340
+2026-06-04 21:21:50,275 [INFO]   [CAMB]  56.9%  19.4 proc-fps  ETA 1.0 min  tracks=7  events=676
+2026-06-04 21:21:53,842 [INFO] [CAMB] Re-entry detected: T1630 (gap=3.4s)
+2026-06-04 21:21:56,653 [INFO] [CAMB] Re-entry detected: T1615 (gap=1.1s)
+2026-06-04 21:21:58,817 [INFO] [CAMB] Re-entry detected: T1619 (gap=11.7s)
+2026-06-04 21:22:02,281 [INFO] [CAMB] Re-entry detected: T1599 (gap=4.0s)
+2026-06-04 21:22:08,901 [INFO]   [CAMB]  68.3%  18.8 proc-fps  ETA 0.7 min  tracks=13  events=1084
+2026-06-04 21:22:25,572 [INFO]   [CAMB]  79.7%  18.7 proc-fps  ETA 0.5 min  tracks=2  events=1293
+2026-06-04 21:22:39,347 [INFO] [CAMB] Re-entry detected: T1599 (gap=21.2s)
+2026-06-04 21:22:42,844 [INFO]   [CAMB]  91.0%  18.5 proc-fps  ETA 0.2 min  tracks=3  events=1535
+2026-06-04 21:22:48,016 [INFO] [CAMB] Re-entry detected: T1604 (gap=47.8s)
+2026-06-04 21:22:48,352 [INFO] [CAMB] Transcoding to H.264…
+2026-06-04 21:23:03,797 [INFO] [CAMB] Transcode complete.
+2026-06-04 21:23:03,811 [INFO] [CAMB] ✓ Finished  2502 frames | 1598 events | 2.5 min wall-time | billed_customer=0 re_entry=6
+2026-06-04 21:23:03,811 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMB_annotated.mp4
+2026-06-04 21:23:03,812 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMB_events.jsonl
+2026-06-04 21:23:03,813 [INFO] 
+2026-06-04 21:23:03,813 [INFO]   >> Camera CAMC (entry): data/videos/Store 2/entry 2.mp4
+2026-06-04 21:23:03,841 [INFO] [CAMC] 960×1080 @ 25.0 fps | 2129 frames (1.4 min) | role=entry | skip=2
+2026-06-04 21:23:23,642 [INFO]   [CAMC]  14.1%  15.2 proc-fps  ETA 2.0 min  tracks=4  events=357
+2026-06-04 21:23:33,604 [INFO] [StaffFilter] Promoted T1883 to STAFF (score=2.0)
+2026-06-04 21:23:42,910 [INFO]   [CAMC]  28.2%  15.4 proc-fps  ETA 1.7 min  tracks=5  events=719
+2026-06-04 21:23:52,248 [INFO] [StaffFilter] Promoted T1921 to STAFF (score=2.0)
+2026-06-04 21:24:01,186 [INFO]   [CAMC]  42.3%  15.7 proc-fps  ETA 1.3 min  tracks=9  events=1050
+2026-06-04 21:24:13,294 [INFO] [StaffFilter] Promoted T1974 to STAFF (score=2.0)
+2026-06-04 21:24:13,451 [INFO] [CAMC] Re-entry detected: T1963 (gap=3.0s)
+2026-06-04 21:24:19,510 [INFO]   [CAMC]  56.4%  15.9 proc-fps  ETA 1.0 min  tracks=4  events=1381
+2026-06-04 21:24:34,010 [INFO] [CAMC] Re-entry detected: T1869 (gap=38.0s)
+2026-06-04 21:24:36,799 [INFO] [CAMC] Re-entry detected: T1916 (gap=11.2s)
+2026-06-04 21:24:37,178 [INFO]   [CAMC]  70.5%  16.1 proc-fps  ETA 0.7 min  tracks=16  events=1660
+2026-06-04 21:24:37,613 [INFO] [CAMC] Re-entry detected: T2037 (gap=0.2s)
+2026-06-04 21:24:42,160 [INFO] [StaffFilter] Promoted T2124 to STAFF (score=2.0)
+2026-06-04 21:24:48,283 [INFO] [CAMC] Re-entry detected: T1905 (gap=38.7s)
+2026-06-04 21:24:54,077 [INFO] [StaffFilter] Promoted T2207 to STAFF (score=2.0)
+2026-06-04 21:24:58,125 [INFO]   [CAMC]  84.5%  15.8 proc-fps  ETA 0.3 min  tracks=7  events=2194
+2026-06-04 21:25:00,287 [INFO] [StaffFilter] Promoted T2230 to STAFF (score=2.0)
+2026-06-04 21:25:03,515 [INFO] [CAMC] Transcoding to H.264…
+2026-06-04 21:25:16,487 [INFO] [CAMC] Transcode complete.
+2026-06-04 21:25:16,510 [INFO] [CAMC] ✓ Finished  1902 frames | 2263 events | 2.2 min wall-time | billed_customer=0 re_entry=5
+2026-06-04 21:25:16,512 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMC_annotated.mp4
+2026-06-04 21:25:16,514 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMC_events.jsonl
+2026-06-04 21:25:16,516 [INFO] 
+2026-06-04 21:25:16,516 [INFO]   >> Camera CAMD (zone): data/videos/Store 2/zone.mp4
+2026-06-04 21:25:16,567 [INFO] [CAMD] 960×1080 @ 25.0 fps | 2898 frames (1.9 min) | role=zone | skip=2
+2026-06-04 21:25:30,500 [INFO]   [CAMD]  10.4%  21.6 proc-fps  ETA 2.0 min  tracks=0  events=0
+2026-06-04 21:25:43,731 [INFO] [StaffFilter] Promoted T2231 to STAFF (score=2.0)
+2026-06-04 21:25:44,423 [INFO]   [CAMD]  20.7%  21.6 proc-fps  ETA 1.8 min  tracks=1  events=8
+2026-06-04 21:25:47,999 [INFO] [StaffFilter] Promoted T2240 to STAFF (score=2.0)
+2026-06-04 21:25:59,097 [INFO]   [CAMD]  31.1%  21.2 proc-fps  ETA 1.6 min  tracks=1  events=93
+2026-06-04 21:26:15,759 [INFO]   [CAMD]  41.4%  20.3 proc-fps  ETA 1.4 min  tracks=3  events=262
+2026-06-04 21:26:29,738 [INFO] [CAMD] Re-entry detected: T2252 (gap=1.6s)
+2026-06-04 21:26:32,413 [INFO] [StaffFilter] Promoted T2283 to STAFF (score=2.0)
+2026-06-04 21:26:35,576 [INFO] [CAMD] Re-entry detected: T2237 (gap=30.7s)
+2026-06-04 21:26:36,098 [INFO]   [CAMD]  51.8%  18.9 proc-fps  ETA 1.2 min  tracks=8  events=695
+2026-06-04 21:26:52,683 [INFO] [CAMD] Re-entry detected: T2135 (gap=14.2s)
+2026-06-04 21:26:53,407 [INFO] [StaffFilter] Promoted T2318 to STAFF (score=2.0)
+2026-06-04 21:26:55,029 [INFO]   [CAMD]  62.1%  18.3 proc-fps  ETA 1.0 min  tracks=4  events=1038
+2026-06-04 21:27:09,691 [INFO]   [CAMD]  72.5%  18.6 proc-fps  ETA 0.7 min  tracks=2  events=1250
+2026-06-04 21:27:24,505 [INFO]   [CAMD]  82.8%  18.8 proc-fps  ETA 0.4 min  tracks=2  events=1445
+2026-06-04 21:27:39,104 [INFO]   [CAMD]  93.2%  18.9 proc-fps  ETA 0.2 min  tracks=1  events=1494
+2026-06-04 21:27:49,764 [INFO] [CAMD] Transcoding to H.264…
+2026-06-04 21:28:07,083 [INFO] [CAMD] Transcode complete.
+2026-06-04 21:28:07,097 [INFO] [CAMD] ✓ Finished  2898 frames | 1625 events | 2.8 min wall-time | billed_customer=0 re_entry=3
+2026-06-04 21:28:07,097 [INFO]   Video  → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMD_annotated.mp4
+2026-06-04 21:28:07,098 [INFO]   Events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\CAMD_events.jsonl
+2026-06-04 21:28:07,100 [INFO] 
+2026-06-04 21:28:07,100 [INFO]   ✓ Store summary → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\summary.json
+2026-06-04 21:28:07,101 [INFO]     events=9255  customers=167  staff=22  billed=0  re_entries=16
+2026-06-04 21:28:07,250 [INFO]   ✓ Consolidated events → D:\purpell\v2\store-intelligence\pipeline\data\output\ST1008\ST1008_events.jsonl (9255 total events from 4 cameras)
+2026-06-04 21:28:07,250 [INFO] 
+2026-06-04 21:28:07,251 [INFO] =================================================================
+2026-06-04 21:28:07,251 [INFO]   ALL DONE in 35.1 min
+2026-06-04 21:28:07,252 [INFO]   Outputs in: D:\purpell\v2\store-intelligence\pipeline\data\output
+2026-06-04 21:28:07,252 [INFO] =================================================================

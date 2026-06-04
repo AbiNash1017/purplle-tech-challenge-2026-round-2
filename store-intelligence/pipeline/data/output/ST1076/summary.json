@@ -1,0 +1,67 @@
+{
+  "store_id": "ST1076",
+  "store_name": "Mumbai Central",
+  "processed_at": "2026-06-04T21:17:22.390980",
+  "cameras": [
+    {
+      "cam_id": "CAM1",
+      "cam_role": "zone",
+      "frames": 4193,
+      "events": 7714,
+      "out_video": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1076\\CAM1_annotated.mp4",
+      "out_events": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1076\\CAM1_events.jsonl",
+      "wall_sec": 519.1,
+      "customers": 10,
+      "staff": 57,
+      "billed_customers": 0,
+      "re_entries": 8
+    },
+    {
+      "cam_id": "CAM2",
+      "cam_role": "zone",
+      "frames": 3774,
+      "events": 9183,
+      "out_video": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1076\\CAM2_annotated.mp4",
+      "out_events": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1076\\CAM2_events.jsonl",
+      "wall_sec": 335.2,
+      "customers": 16,
+      "staff": 73,
+      "billed_customers": 0,
+      "re_entries": 2
+    },
+    {
+      "cam_id": "CAM3",
+      "cam_role": "entry",
+      "frames": 4436,
+      "events": 2669,
+      "out_video": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1076\\CAM3_annotated.mp4",
+      "out_events": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1076\\CAM3_events.jsonl",
+      "wall_sec": 331.9,
+      "customers": 31,
+      "staff": 45,
+      "billed_customers": 0,
+      "re_entries": 4
+    },
+    {
+      "cam_id": "CAM5",
+      "cam_role": "billing",
+      "frames": 3465,
+      "events": 2098,
+      "out_video": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1076\\CAM5_annotated.mp4",
+      "out_events": "D:\\purpell\\v2\\store-intelligence\\pipeline\\data\\output\\ST1076\\CAM5_events.jsonl",
+      "wall_sec": 271.4,
+      "customers": 1,
+      "staff": 25,
+      "billed_customers": 0,
+      "re_entries": 0
+    }
+  ],
+  "totals": {
+    "total_events": 21664,
+    "total_customers": 58,
+    "total_staff": 200,
+    "total_billed": 0,
+    "total_re_entries": 14,
+    "wall_seconds": 1457.6
+  }
+}
