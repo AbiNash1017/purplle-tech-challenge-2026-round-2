@@ -1,0 +1,81 @@
+version: "3.8"
+
+services:
+  # ---------------------------------------------------------------------------
+  # MongoDB (replica set required for change streams + time-series collections)
+  # ---------------------------------------------------------------------------
+  mongo:
+    image: mongo:6.0
+    container_name: store-intel-db
+    restart: always
+    ports:
+      - "27017:27017"
+    command: ["--replSet", "rs0", "--bind_ip_all"]
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # One-shot container to initiate the MongoDB replica set on first boot
+  mongo-init:
+    image: mongo:6.0
+    container_name: store-intel-db-init
+    depends_on:
+      mongo:
+        condition: service_healthy
+    restart: "no"
+    entrypoint: >
+      mongosh --host mongo:27017 --eval
+      "try { rs.status() } catch(e) { rs.initiate({_id:'rs0',members:[{_id:0,host:'mongo:27017'}]}) }"
+
+  # ---------------------------------------------------------------------------
+  # FastAPI Backend
+  # ---------------------------------------------------------------------------
+  api:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: store-intel-api
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      mongo:
+        condition: service_healthy
+      mongo-init:
+        condition: service_completed_successfully
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/store_intelligence?replicaSet=rs0
+      # Upstash Redis REST credentials (leave blank to use the in-memory fallback)
+      - UPSTASH_REDIS_REST_URL=${UPSTASH_REDIS_REST_URL:-}
+      - UPSTASH_REDIS_REST_TOKEN=${UPSTASH_REDIS_REST_TOKEN:-}
+      - EXECUTION_MODE=${EXECUTION_MODE:-SIMULATED}
+      - API_URL=http://api:8000
+    volumes:
+      # Mount pipeline output so simulated data is visible to the API
+      - ./store-intelligence/pipeline/data/output:/app/../store-intelligence/pipeline/data/output:ro
+
+  # ---------------------------------------------------------------------------
+  # CV Pipeline (SIMULATED mode replays JSONL; LIVE mode runs YOLO)
+  # ---------------------------------------------------------------------------
+  pipeline:
+    build:
+      context: ./store-intelligence/pipeline
+      dockerfile: Dockerfile
+    container_name: store-intel-pipeline
+    restart: on-failure
+    depends_on:
+      - api
+    environment:
+      - API_URL=http://api:8000
+      - EXECUTION_MODE=${EXECUTION_MODE:-SIMULATED}
+    volumes:
+      # Mount data directory so simulator can read JSONL files
+      - ./store-intelligence/pipeline/data:/app/data:ro
+    entrypoint: ["/bin/bash", "run.sh"]
+
+volumes:
+  mongo_data:
