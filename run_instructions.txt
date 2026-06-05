@@ -1,0 +1,192 @@
+================================================================================
+PURPLLE STORE INTELLIGENCE PLATFORM - RUN INSTRUCTIONS
+================================================================================
+
+This document contains step-by-step instructions to set up and run the Purplle 
+Store Intelligence Platform, including the Backend API, Dashboard UI, and the 
+Pipeline Simulator, both locally and via Docker.
+
+--------------------------------------------------------------------------------
+1. PREREQUISITES
+--------------------------------------------------------------------------------
+
+Before setting up the project, ensure you have the following installed on your 
+system:
+
+* Python 3.12+ (https://python.org)
+* MongoDB 6.0+ (with replica set configured) or Docker Desktop
+* Node.js 18+ or Bun (https://bun.sh)
+* Git (any version)
+* Docker Desktop 4.x+ (if using Docker Compose setup)
+
+--------------------------------------------------------------------------------
+2. ENVIRONMENT SETUP
+--------------------------------------------------------------------------------
+
+1. Open your terminal in the project root directory (d:\purpell\v2).
+2. Copy the example environment file to create your active configuration:
+
+   Windows PowerShell / CMD / Bash:
+   copy .env.example .env (or cp .env.example .env)
+
+3. Open the newly created .env file and check/configure the default values:
+   - For local development, set MONGO_URI to your local replica set instance:
+     MONGO_URI=mongodb://localhost:27017/store_intelligence?replicaSet=rs0
+   - Leave UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN blank to use the
+     built-in in-memory fallback broker (recommended for local development).
+   - Set EXECUTION_MODE to SIMULATED (for replaying sample logs) or LIVE (for
+     running real YOLOv11/camera streams).
+
+--------------------------------------------------------------------------------
+3. LOCAL DEVELOPMENT SETUP (RECOMMENDED)
+--------------------------------------------------------------------------------
+
+To run the full suite locally, you will need three terminal windows open 
+concurrently (one for Backend, one for Dashboard, and one for Simulator).
+
+--- 3.1 BACKEND API SETUP ---
+
+In Terminal 1 (from the project root directory):
+
+1. Create a Python virtual environment:
+   python -m venv venv
+
+2. Activate the virtual environment:
+   Windows PowerShell:
+   .\venv\Scripts\Activate.ps1
+   
+   Windows CMD:
+   .\venv\Scripts\activate.bat
+   
+   Bash/macOS/Linux:
+   source venv/bin/activate
+
+3. Install backend dependencies:
+   pip install -r app/requirements.txt
+
+4. Start the FastAPI API server with hot-reload enabled:
+   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+5. Verify the API is up and running by opening a browser or running curl:
+   curl http://localhost:8000/health
+   Swagger API Docs: http://localhost:8000/docs
+
+* Note on MongoDB Replica Set:
+  The database uses time-series collections which require replica sets to be
+  active. If you run MongoDB locally (not inside Docker), initialize the replica
+  set by running:
+    mongod --replSet rs0
+  Then in the mongosh shell:
+    rs.initiate({ _id: "rs0", members: [{ _id: 0, host: "localhost:27017" }] })
+  If you do not initiate the replica set, the API will fall back to using 
+  regular MongoDB collections.
+
+--- 3.2 DASHBOARD UI SETUP ---
+
+In Terminal 2 (navigate to the dashboard directory):
+
+1. Go to the dashboard subdirectory:
+   cd dashboard
+
+2. Install dependencies:
+   Using Bun:
+     bun install
+   Using NPM:
+     npm install
+
+3. Run the development server:
+   Using Bun:
+     bun run dev
+   Using NPM:
+     npm run dev
+
+4. Access the Dashboard in your browser:
+   - Global Overview: http://localhost:3000
+   - Store 1 (Mumbai Central): http://localhost:3000/store/ST1076
+   - Store 2 (Delhi SelectCitywalk): http://localhost:3000/store/ST1008
+
+--- 3.3 PIPELINE SIMULATOR SETUP ---
+
+In Terminal 3 (from the project root directory, to replay pre-recorded events):
+
+1. Activate the python virtual environment:
+   Windows PowerShell:
+     .\venv\Scripts\Activate.ps1
+   Windows CMD:
+     .\venv\Scripts\activate.bat
+
+2. Run the simulator (which replays events to the FastAPI backend in real-time):
+   Windows PowerShell:
+     .\venv\Scripts\python store-intelligence\pipeline\simulate.py --loop --speed 1.5 --api-url http://localhost:8000
+   
+   Windows CMD / Bash:
+     python store-intelligence/pipeline/simulate.py --loop --speed 1.5 --api-url http://localhost:8000
+
+   Options:
+     --loop          Loop infinitely after the replay completes.
+     --speed <x>     Speed multiplier (e.g. 1.5 for 1.5x real-time speed).
+     --file <path>   Path to custom JSONL file.
+     --store <id>    Force override store ID in all replayed events.
+     --api-url <url> Backend API endpoint URL.
+
+--- 3.4 LIVE PIPELINE SETUP (OPTIONAL - REAL CAMERAS & YOLOv11) ---
+
+If you want to run the pipeline using actual video feeds or camera streams:
+
+1. Install the pipeline-specific dependencies (requires OpenCV, PyTorch, etc.):
+   pip install -r store-intelligence\pipeline\requirements.txt
+
+2. Update .env file:
+   EXECUTION_MODE=LIVE
+
+3. Start the video processor:
+   python store-intelligence\pipeline\video_processor.py
+
+--------------------------------------------------------------------------------
+4. DOCKER COMPOSE SETUP (FULL STACK)
+--------------------------------------------------------------------------------
+
+Docker Compose brings up the entire stack: MongoDB (pre-configured with a 
+replica set), the FastAPI Backend, and the Pipeline Simulator automatically.
+
+1. Ensure Docker Desktop is running.
+2. In your terminal, run the following command from the project root:
+   
+   docker compose up --build
+
+   Or run in the background (detached mode):
+   docker compose up --build -d
+
+3. Monitor container logs:
+   docker compose logs -f api
+   docker compose logs -f pipeline
+
+4. Stop the services:
+   docker compose stop
+
+5. Stop services and remove container volumes (wipes database data):
+   docker compose down -v
+
+--------------------------------------------------------------------------------
+5. RUNNING TESTS
+--------------------------------------------------------------------------------
+
+The test suite runs completely in-memory using mocks for MongoDB and Redis, 
+so you do not need active instances running to pass tests.
+
+1. Activate your virtual environment:
+   .\venv\Scripts\Activate.ps1
+
+2. Run all tests:
+   python -m pytest -v
+
+3. Run a specific test file:
+   python -m pytest tests/test_ingestion.py -v
+
+4. Run a single test case:
+   python -m pytest tests/test_endpoints.py::test_store_anomalies_endpoint -v
+
+5. (Optional) Run with coverage report:
+   pip install pytest-cov
+   python -m pytest --cov=app --cov-report=term-missing
+================================================================================
